@@ -9,4 +9,4 @@
 #### New Feature
 
 #### Bug Fix
-* fix: Modify select metric_value error #26036 [#7650](https://github.com/deepflowio/deepflow/pull/7650) by [Ericsssss](https://github.com/Ericsssss)
+* fix: Modify select metric_value error #26036 [#7650](https://github.com/khulnasoft/deepflow/pull/7650) by [Ericsssss](https://github.com/Ericsssss)

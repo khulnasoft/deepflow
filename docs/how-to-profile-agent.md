@@ -44,7 +44,7 @@ Use `ms_print` to view captured snapshots.
 ### [Jemalloc](https://rustmagazine.github.io/rust_magazine_2021/chapter_5/rust-memory-troubleshootting.html) can monitor agent heap usage.
 
 The operation steps are as follows:
-- Modify code based on Jemalloc documentation or [PR](https://github.com/deepflowio/deepflow/pull/5280)
+- Modify code based on Jemalloc documentation or [PR](https://github.com/khulnasoft/deepflow/pull/5280)
 - Compile the release version of the agent and run it
 - Run the command to download the agent profile file: curl http://127.0.0.0:30038/debug/pprof/heap -o agent.profile
 - Generating svg files using agent profile files: jeprof --svg ./deepflow-agen ./agent.profile

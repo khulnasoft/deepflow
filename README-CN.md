@@ -6,9 +6,9 @@
 </p>
 <p align="center">
     <a href="https://zenodo.org/badge/latestdoi/448599559"><img src="https://zenodo.org/badge/448599559.svg" alt="DOI"></a>
-    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/deepflowio/deepflow"> </a>
-    <img alt="docker pulls" src="https://img.shields.io/docker/pulls/deepflowce/deepflow-agent?color=green?label=docker pulls"> </a>
-    <img alt="License" src="https://img.shields.io/github/license/deepflowio/deepflow?color=purple"> </a>
+    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/khulnasoft/deepflow"> </a>
+    <img alt="docker pulls" src="https://img.shields.io/docker/pulls/khulnasoft/deepflow-agent?color=green?label=docker pulls"> </a>
+    <img alt="License" src="https://img.shields.io/github/license/khulnasoft/deepflow?color=purple"> </a>
 </p>
 
 -------------
@@ -67,7 +67,7 @@ DeepFlow Community 版本主要由 Agent 和 Server 两个进程组成。每个 
 # 联系我们
 
 - Discord：点击 [此链接](https://discord.gg/QJ7Dyj4wWM) 加入 Discord 频道.
-- Twitter：[DeepFlow](https://twitter.com/deepflowio)
+- Twitter：[DeepFlow](https://twitter.com/khulnasoft)
 - 微信群：
 <img src=./docs/wechat-group-keeper.png width=30% />
 

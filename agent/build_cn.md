@@ -6,7 +6,7 @@
 
 最简单的方法是使用我们构建好的编译环境：
 ```bash
-git clone --recursive https://github.com/deepflowio/deepflow.git 
+git clone --recursive https://github.com/khulnasoft/deepflow.git 
 cd deepflow 
 docker run --privileged --rm -it -v \
     $(pwd):/deepflow -v ~/.cargo:/usr/local/cargo hub.deepflow.yunshan.net/public/rust-build bash -c \
@@ -81,7 +81,7 @@ ln -s /usr/local/lib/libelf.a /usr/lib/libelf.a
 
 # libGoReSym
 # 安装/升级golang版本到go1.18
-wget https://github.com/deepflowio/libGoReSym/archive/refs/tags/v0.0.1-2.tar.gz
+wget https://github.com/khulnasoft/libGoReSym/archive/refs/tags/v0.0.1-2.tar.gz
 tar -xzf v0.0.1-2.tar.gz
 cd libGoReSym-0.0.1-2
 make && make install && make clean
@@ -89,7 +89,7 @@ make && make install && make clean
 
 编译 agent：
 ```bash
-git clone --recursive https://github.com/deepflowio/deepflow.git
+git clone --recursive https://github.com/khulnasoft/deepflow.git
 cd deepflow/agent
 cargo build
 ```

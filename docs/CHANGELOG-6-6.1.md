@@ -9,4 +9,4 @@
 #### New Feature
 
 #### Bug Fix
-* fix: solve the problem that sql is changed to lowercase [#7477](https://github.com/deepflowio/deepflow/pull/7477) by [duandaa](https://github.com/duandaa)
+* fix: solve the problem that sql is changed to lowercase [#7477](https://github.com/khulnasoft/deepflow/pull/7477) by [duandaa](https://github.com/duandaa)

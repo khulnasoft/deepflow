@@ -9,8 +9,8 @@
 #### New Feature
 
 #### Bug Fix
-* fix: agent - windows compilation errors [#7244](https://github.com/deepflowio/deepflow/pull/7244) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: agent - windows compilation errors [#7244](https://github.com/khulnasoft/deepflow/pull/7244) by [yuanchaoa](https://github.com/yuanchaoa)
 
 
 #### Chore
-* chore: update cli dependencies [#7247](https://github.com/deepflowio/deepflow/pull/7247) by [lzf575](https://github.com/lzf575)
+* chore: update cli dependencies [#7247](https://github.com/khulnasoft/deepflow/pull/7247) by [lzf575](https://github.com/lzf575)

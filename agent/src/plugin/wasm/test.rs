@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -447,8 +447,8 @@ import (
     "bufio"
     "bytes"
     "encoding/base64"
-    "github.com/deepflowio/deepflow-wasm-go-sdk/pb"
-    "github.com/deepflowio/deepflow-wasm-go-sdk/sdk"
+    "github.com/khulnasoft/deepflow-wasm-go-sdk/pb"
+    "github.com/khulnasoft/deepflow-wasm-go-sdk/sdk"
     "github.com/valyala/fastjson"
     "io"
     "net/http"

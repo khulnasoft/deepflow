@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ import (
 	"strings"
 	"time"
 
-	ctrlcommon "github.com/deepflowio/deepflow/server/controller/common"
+	ctrlcommon "github.com/khulnasoft/deepflow/server/controller/common"
 
 	simplejson "github.com/bitly/go-simplejson"
 	"github.com/spf13/cobra"

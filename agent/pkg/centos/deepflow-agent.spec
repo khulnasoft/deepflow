@@ -4,7 +4,7 @@ Release:    %(git rev-list --count HEAD)%{?dist}
 Summary:    deepflow agent
 
 Group:      Applications/File
-Vendor:     Yunshan Networks
+Vendor:     KhulnaSoft, Ltd
 License:    Copyright (c) 2012-2016 Yunshan Netwoks
 URL:        http://yunshan.net
 Source:     deepflow-agent.spec

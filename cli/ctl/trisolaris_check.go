@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,14 +30,15 @@ import (
 	"time"
 
 	. "encoding/binary"
-	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+
 	"github.com/golang/protobuf/proto"
+	"github.com/khulnasoft/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 	"github.com/spf13/cobra"
 	_ "golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/deepflowio/deepflow/cli/ctl/common"
+	"github.com/khulnasoft/deepflow/cli/ctl/common"
 )
 
 type ParamData struct {
