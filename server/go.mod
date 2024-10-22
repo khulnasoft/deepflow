@@ -98,22 +98,22 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/grafana/pyroscope-go v1.0.4
 	github.com/khulnasoft/deepflow/message v0.0.0-20241022101633-9c21adb092c7
-	github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/expand v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/controller/cloud/platform v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/controller/cloud/tencent/expand v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/edition v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/controller/genesis/store/sync v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/expand v0.0.0-20241022105634-9cea69713ceb
+	github.com/khulnasoft/deepflow/server/controller/cloud/platform v0.0.0-20241022105634-9cea69713ceb
+	github.com/khulnasoft/deepflow/server/controller/cloud/tencent/expand v0.0.0-20241022105634-9cea69713ceb
+	github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/edition v0.0.0-20241022105634-9cea69713ceb
+	github.com/khulnasoft/deepflow/server/controller/genesis/store/sync v0.0.0-20241022105634-9cea69713ceb
 	github.com/khulnasoft/deepflow/server/controller/http/appender v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/controller/http/service/agentlicense v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/controller/monitor/license v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/ingester/config/configdefaults v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/ingester/flow_log/log_data/sw_import v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/libs/logger/blocker v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/libs/logger/blocker v0.0.0-20241022105634-9cea69713ceb
 	github.com/khulnasoft/deepflow/server/querier/app/distributed_tracing/service/tracemap v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/querier/app/prometheus/router/packet_adapter v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/querier/app/prometheus/service/packet_wrapper v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/querier/app/prometheus/router/packet_adapter v0.0.0-20241022105634-9cea69713ceb
+	github.com/khulnasoft/deepflow/server/querier/app/prometheus/service/packet_wrapper v0.0.0-20241022105634-9cea69713ceb
 	github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/service/packet_service v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/packet_batch v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/packet_batch v0.0.0-20241022105634-9cea69713ceb
 	github.com/khulnasoft/tempopb v0.0.0-20241022104533-7b28ed5eb65e
 	github.com/klauspost/compress v1.17.7
 	github.com/mitchellh/mapstructure v1.4.3
