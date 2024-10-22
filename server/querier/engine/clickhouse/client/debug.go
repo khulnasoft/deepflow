@@ -19,7 +19,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/deepflowio/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/config"
 	"github.com/google/uuid"
 )
 

@@ -27,13 +27,13 @@ import (
 	"github.com/agiledragon/gomonkey/v2"
 	. "github.com/smartystreets/goconvey/convey"
 
-	cloudconfig "github.com/deepflowio/deepflow/server/controller/cloud/config"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/genesis"
-	gcommon "github.com/deepflowio/deepflow/server/controller/genesis/common"
+	cloudconfig "github.com/khulnasoft/deepflow/server/controller/cloud/config"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/genesis"
+	gcommon "github.com/khulnasoft/deepflow/server/controller/genesis/common"
 )
 
 func TestKubernetes(t *testing.T) {

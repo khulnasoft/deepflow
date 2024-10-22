@@ -21,9 +21,9 @@ import (
 
 	"github.com/bitly/go-simplejson"
 
-	cloudcommon "github.com/deepflowio/deepflow/server/controller/cloud/common"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	cloudcommon "github.com/khulnasoft/deepflow/server/controller/cloud/common"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var DEFAULT_DOMAIN = "myhuaweicloud.com"

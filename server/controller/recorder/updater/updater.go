@@ -17,15 +17,15 @@
 package updater
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	"github.com/deepflowio/deepflow/server/controller/recorder/common"
-	"github.com/deepflowio/deepflow/server/controller/recorder/constraint"
-	"github.com/deepflowio/deepflow/server/controller/recorder/db"
-	"github.com/deepflowio/deepflow/server/controller/recorder/listener"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
-	msg "github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/common"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/db"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/listener"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
+	msg "github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message/constraint"
 )
 
 // ResourceUpdater 实现资源进行新旧数据比对，并根据比对结果增删改资源

@@ -17,11 +17,11 @@
 package event
 
 import (
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	"github.com/deepflowio/deepflow/server/libs/eventapi"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	"github.com/khulnasoft/deepflow/server/libs/eventapi"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 type RDSInstance struct {

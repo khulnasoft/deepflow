@@ -17,7 +17,7 @@
 package ckissu
 
 import (
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
 )
 
 var AllColumnAdds = [][]*ColumnAdds{ColumnAdd64, ColumnAdd65, ColumnAdd66}

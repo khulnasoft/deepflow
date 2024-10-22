@@ -23,9 +23,9 @@ import (
 
 	"skywalking.apache.org/repo/goapi/query"
 
-	"github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/common"
-	"github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/config"
-	"github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/model"
+	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/common"
+	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/config"
+	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/model"
 	"github.com/google/uuid"
 	"github.com/mitchellh/mapstructure"
 	"github.com/op/go-logging"

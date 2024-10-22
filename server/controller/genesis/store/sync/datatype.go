@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	ccommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/controller/genesis/common"
-	"github.com/deepflowio/deepflow/server/controller/model"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	ccommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	"github.com/khulnasoft/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 type GenesisSyncDataOperation struct {

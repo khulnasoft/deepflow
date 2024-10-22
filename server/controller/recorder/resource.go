@@ -20,8 +20,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/deepflowio/deepflow/server/controller/recorder/config"
-	"github.com/deepflowio/deepflow/server/controller/recorder/db/idmng"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/config"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/db/idmng"
 )
 
 var (

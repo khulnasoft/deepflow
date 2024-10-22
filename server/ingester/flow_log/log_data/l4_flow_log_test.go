@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/deepflowio/deepflow/server/ingester/flow_log/geo"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_log/geo"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
 )
 
 func TestJsonify(t *testing.T) {

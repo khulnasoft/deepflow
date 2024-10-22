@@ -17,17 +17,17 @@
 package dbwriter
 
 import (
-	basecommon "github.com/deepflowio/deepflow/server/ingester/common"
-	baseconfig "github.com/deepflowio/deepflow/server/ingester/config"
-	"github.com/deepflowio/deepflow/server/ingester/flow_log/common"
-	"github.com/deepflowio/deepflow/server/ingester/flow_log/config"
-	logdata "github.com/deepflowio/deepflow/server/ingester/flow_log/log_data"
-	"github.com/deepflowio/deepflow/server/ingester/pkg/ckwriter"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	"github.com/deepflowio/deepflow/server/libs/tracetree"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	basecommon "github.com/khulnasoft/deepflow/server/ingester/common"
+	baseconfig "github.com/khulnasoft/deepflow/server/ingester/config"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_log/common"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_log/config"
+	logdata "github.com/khulnasoft/deepflow/server/ingester/flow_log/log_data"
+	"github.com/khulnasoft/deepflow/server/ingester/pkg/ckwriter"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/libs/tracetree"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

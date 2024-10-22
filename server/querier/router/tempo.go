@@ -23,11 +23,11 @@ import (
 
 	//logging "github.com/op/go-logging"
 	//"fmt"
-	"github.com/deepflowio/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/common"
 	"github.com/golang/protobuf/jsonpb"
 	//"github.com/golang/protobuf/proto"
 	//"github.com/grafana/tempo/pkg/tempopb"
-	"github.com/deepflowio/deepflow/server/querier/tempo"
+	"github.com/khulnasoft/deepflow/server/querier/tempo"
 	"github.com/golang/protobuf/proto"
 	//"github.com/k0kubun/pp"
 )

@@ -23,11 +23,11 @@ import (
 
 	"inet.af/netaddr"
 
-	kubernetes_model "github.com/deepflowio/deepflow/server/controller/cloud/kubernetes_gather/model"
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	kubernetes_model "github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/model"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 // 合并附属容器集群的资源到云平台资源中

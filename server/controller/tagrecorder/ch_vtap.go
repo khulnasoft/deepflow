@@ -17,12 +17,12 @@
 package tagrecorder
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service/vtap"
-	"github.com/deepflowio/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service/vtap"
+	"github.com/khulnasoft/deepflow/server/controller/model"
 )
 
 type ChVTap struct {

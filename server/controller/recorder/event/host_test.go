@@ -19,11 +19,11 @@ package event
 import (
 	"testing"
 
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/diffbase"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	"github.com/deepflowio/deepflow/server/libs/eventapi"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/diffbase"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	"github.com/khulnasoft/deepflow/server/libs/eventapi"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -19,8 +19,8 @@ package statsd
 import (
 	"sync/atomic"
 
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
 )
 
 var log = logger.MustGetLogger("trisolaris/statsd")

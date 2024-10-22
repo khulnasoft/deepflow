@@ -17,9 +17,9 @@
 package rebalance
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 )
 
 // //go:generate mockgen -source=analyzer.go -destination=./mocks/mock_analyzer.go -package=mocks DB

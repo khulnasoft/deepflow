@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	ccommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/genesis/common"
-	"github.com/deepflowio/deepflow/server/controller/genesis/config"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	ccommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/config"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 type KubernetesStorage struct {

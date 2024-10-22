@@ -32,13 +32,13 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/agent_config"
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/common"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/metadata"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/utils"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/utils/atomicbool"
+	"github.com/khulnasoft/deepflow/server/agent_config"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/common"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/metadata"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/utils/atomicbool"
 )
 
 type VTapConfig struct {

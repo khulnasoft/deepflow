@@ -17,7 +17,7 @@
 package constraint
 
 import (
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 )
 
 type OperateBatchModel interface {

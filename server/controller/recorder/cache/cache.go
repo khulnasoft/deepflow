@@ -22,14 +22,14 @@ import (
 
 	"github.com/op/go-logging"
 
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/query"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/diffbase"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	rcommon "github.com/deepflowio/deepflow/server/controller/recorder/common"
-	"github.com/deepflowio/deepflow/server/controller/recorder/config"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/query"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/diffbase"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	rcommon "github.com/khulnasoft/deepflow/server/controller/recorder/common"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/config"
 )
 
 // 为支持domain及其sub_domain的独立刷新，将缓存拆分成对应的独立Cache

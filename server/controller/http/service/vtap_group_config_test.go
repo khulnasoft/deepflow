@@ -19,8 +19,8 @@ package service
 import (
 	"testing"
 
-	"github.com/deepflowio/deepflow/server/agent_config"
-	"github.com/deepflowio/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/agent_config"
+	"github.com/khulnasoft/deepflow/server/controller/model"
 )
 
 func Test_copyStruct(t *testing.T) {

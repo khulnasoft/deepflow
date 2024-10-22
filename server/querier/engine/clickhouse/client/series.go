@@ -19,7 +19,7 @@ package client
 import (
 	"reflect"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/common"
 )
 
 type Series struct {

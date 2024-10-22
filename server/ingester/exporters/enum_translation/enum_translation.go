@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/deepflowio/deepflow/server/querier/db_descriptions"
+	"github.com/khulnasoft/deepflow/server/querier/db_descriptions"
 	logging "github.com/op/go-logging"
 )
 

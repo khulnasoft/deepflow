@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	mcommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	routercommon "github.com/deepflowio/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	mcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	routercommon "github.com/khulnasoft/deepflow/server/controller/http/router/common"
 	"github.com/gin-gonic/gin"
 )
 

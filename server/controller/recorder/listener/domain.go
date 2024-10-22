@@ -17,10 +17,10 @@
 package listener
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache"
-	"github.com/deepflowio/deepflow/server/controller/recorder/event"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/event"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 var log = logger.MustGetLogger("recorder/listener")

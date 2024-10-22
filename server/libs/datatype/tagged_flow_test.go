@@ -21,8 +21,8 @@ import (
 
 	"github.com/google/gopacket/layers"
 
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	"github.com/deepflowio/deepflow/server/libs/datatype/pb"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/datatype/pb"
 )
 
 func TestTaggedFlowEncodeDecode(t *testing.T) {

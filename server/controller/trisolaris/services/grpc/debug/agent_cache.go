@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/vtap"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/vtap"
 )
 
 type AgentCacheDebug struct {

@@ -19,10 +19,10 @@ package tagrecorder
 import (
 	"strings"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/tag"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/tag"
 )
 
 type ChStringEnum struct {

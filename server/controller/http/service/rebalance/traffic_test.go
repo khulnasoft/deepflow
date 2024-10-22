@@ -23,10 +23,10 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/http/service/rebalance/mocks"
-	"github.com/deepflowio/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/http/service/rebalance/mocks"
+	"github.com/khulnasoft/deepflow/server/controller/model"
 )
 
 func TestAZInfo_rebalanceAnalyzer(t *testing.T) {

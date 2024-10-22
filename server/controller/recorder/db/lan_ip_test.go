@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gorm.io/gorm"
 
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 )
 
 func randomIP() string {

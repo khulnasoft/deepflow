@@ -40,7 +40,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	. "github.com/deepflowio/deepflow/server/libs/utils"
+	. "github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

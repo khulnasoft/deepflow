@@ -19,14 +19,14 @@ package event
 import (
 	"fmt"
 
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	rcommon "github.com/deepflowio/deepflow/server/controller/recorder/common"
-	"github.com/deepflowio/deepflow/server/controller/recorder/constraint"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/metadata"
-	"github.com/deepflowio/deepflow/server/libs/eventapi"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	rcommon "github.com/khulnasoft/deepflow/server/controller/recorder/common"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/metadata"
+	"github.com/khulnasoft/deepflow/server/libs/eventapi"
 )
 
 var (

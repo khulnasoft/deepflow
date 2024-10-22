@@ -24,11 +24,11 @@ import (
 	"sync"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	flow_metrics "github.com/deepflowio/deepflow/server/libs/flow-metrics"
-	"github.com/deepflowio/deepflow/server/libs/grpc"
-	"github.com/deepflowio/deepflow/server/libs/queue"
-	"github.com/deepflowio/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	flow_metrics "github.com/khulnasoft/deepflow/server/libs/flow-metrics"
+	"github.com/khulnasoft/deepflow/server/libs/grpc"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
 
 	clickhouse "github.com/ClickHouse/clickhouse-go/v2"
 	logging "github.com/op/go-logging"

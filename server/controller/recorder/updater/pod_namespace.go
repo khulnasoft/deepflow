@@ -19,14 +19,14 @@ package updater
 import (
 	"encoding/json"
 
-	cloudcommon "github.com/deepflowio/deepflow/server/controller/cloud/common"
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/diffbase"
-	"github.com/deepflowio/deepflow/server/controller/recorder/db"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
+	cloudcommon "github.com/khulnasoft/deepflow/server/controller/cloud/common"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/diffbase"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/db"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
 )
 
 type PodNamespace struct {

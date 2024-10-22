@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/deepflowio/deepflow/message/agent"
-	mysqlcommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	"github.com/deepflowio/deepflow/server/controller/genesis/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	mysqlcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 	"google.golang.org/grpc/peer"
 )
 

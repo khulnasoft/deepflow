@@ -19,8 +19,8 @@ package service
 import (
 	"context"
 
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/prompb"
 	"github.com/prometheus/prometheus/promql"

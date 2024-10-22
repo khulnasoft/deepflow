@@ -19,8 +19,8 @@ package common
 import (
 	// "fmt"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 type ORG struct {

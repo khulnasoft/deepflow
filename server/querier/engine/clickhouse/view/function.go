@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/common"
 )
 
 const (

@@ -17,8 +17,8 @@
 package event
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 type Domain struct {

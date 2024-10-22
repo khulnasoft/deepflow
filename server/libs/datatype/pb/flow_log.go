@@ -17,7 +17,7 @@
 package pb
 
 import (
-	"github.com/deepflowio/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
 )
 
 var pbAppProtoLogsDataPool = pool.NewLockFreePool(func() interface{} {

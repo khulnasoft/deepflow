@@ -24,14 +24,14 @@ import (
 
 	"gorm.io/gorm/clause"
 
-	ccommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mcommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/genesis/common"
-	"github.com/deepflowio/deepflow/server/controller/genesis/config"
-	"github.com/deepflowio/deepflow/server/controller/model"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	ccommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/config"
+	"github.com/khulnasoft/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 type SyncStorage struct {

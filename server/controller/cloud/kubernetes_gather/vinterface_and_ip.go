@@ -25,11 +25,11 @@ import (
 	"inet.af/netaddr"
 
 	mapset "github.com/deckarep/golang-set"
-	cloudcommon "github.com/deepflowio/deepflow/server/controller/cloud/common"
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/genesis"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	cloudcommon "github.com/khulnasoft/deepflow/server/controller/cloud/common"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/genesis"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 	"github.com/mikioh/ipaddr"
 )
 

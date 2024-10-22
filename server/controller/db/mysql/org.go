@@ -25,8 +25,8 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 )
 
 const ORG_TABLE = "org"

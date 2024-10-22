@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/bitly/go-simplejson"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/config"
 )
 
 func GetIcon(cfg *config.ControllerConfig) (*simplejson.Json, error) {

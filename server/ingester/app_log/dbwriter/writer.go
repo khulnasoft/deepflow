@@ -21,12 +21,12 @@ import (
 
 	logging "github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/ingester/app_log/config"
-	baseconfig "github.com/deepflowio/deepflow/server/ingester/config"
-	"github.com/deepflowio/deepflow/server/ingester/flow_tag"
-	"github.com/deepflowio/deepflow/server/ingester/pkg/ckwriter"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/ingester/app_log/config"
+	baseconfig "github.com/khulnasoft/deepflow/server/ingester/config"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_tag"
+	"github.com/khulnasoft/deepflow/server/ingester/pkg/ckwriter"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
 )
 
 var log = logging.MustGetLogger("app_log.dbwriter")

@@ -22,9 +22,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse"
 
 	/* "github.com/grafana/tempo/pkg/tempopb"
 	v1 "github.com/grafana/tempo/pkg/tempopb/common/v1"

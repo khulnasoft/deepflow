@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
 )
 
 // 本消息格式仅用于同droplet通信:

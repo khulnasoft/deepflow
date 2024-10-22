@@ -22,7 +22,7 @@ import (
 	"github.com/deepflowio/deepflow/message/agent"
 	"github.com/deepflowio/deepflow/message/common"
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/controller/model"
 )
 
 type GenesisSyncType interface {

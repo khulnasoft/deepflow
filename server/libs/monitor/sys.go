@@ -22,7 +22,7 @@ import (
 	"github.com/op/go-logging"
 	"github.com/shirou/gopsutil/process"
 
-	"github.com/deepflowio/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
 )
 
 var log = logging.MustGetLogger("monitor")

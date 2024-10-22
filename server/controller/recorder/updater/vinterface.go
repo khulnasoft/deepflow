@@ -19,15 +19,15 @@ package updater
 import (
 	"strings"
 
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/diffbase"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	"github.com/deepflowio/deepflow/server/controller/recorder/db"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/diffbase"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/db"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
 )
 
 type VInterface struct {

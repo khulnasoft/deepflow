@@ -20,7 +20,7 @@ import (
 	"golang.org/x/net/context"
 
 	api "github.com/deepflowio/deepflow/message/controller"
-	"github.com/deepflowio/deepflow/server/controller/recorder/db/idmng"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/db/idmng"
 )
 
 type IDEvent struct{}

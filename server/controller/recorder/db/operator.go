@@ -19,12 +19,12 @@ package db
 import (
 	"time"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	rcommon "github.com/deepflowio/deepflow/server/controller/recorder/common"
-	"github.com/deepflowio/deepflow/server/controller/recorder/constraint"
-	"github.com/deepflowio/deepflow/server/controller/recorder/db/idmng"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	rcommon "github.com/khulnasoft/deepflow/server/controller/recorder/common"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/db/idmng"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logger.MustGetLogger("recorder.db")

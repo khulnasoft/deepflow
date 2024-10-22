@@ -23,14 +23,14 @@ import (
 	mapset "github.com/deckarep/golang-set/v2"
 	"golang.org/x/exp/slices"
 
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/diffbase"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/metadata"
-	"github.com/deepflowio/deepflow/server/libs/eventapi"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/diffbase"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/metadata"
+	"github.com/khulnasoft/deepflow/server/libs/eventapi"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 type Process struct {

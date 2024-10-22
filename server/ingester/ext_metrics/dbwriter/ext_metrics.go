@@ -17,12 +17,12 @@
 package dbwriter
 
 import (
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/flow_tag"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	flow_metrics "github.com/deepflowio/deepflow/server/libs/flow-metrics"
-	"github.com/deepflowio/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_tag"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	flow_metrics "github.com/khulnasoft/deepflow/server/libs/flow-metrics"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"github.com/gin-gonic/gin"
 	logging "github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/common"
 )
 
 var log = logging.MustGetLogger("service.common")

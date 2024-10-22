@@ -27,7 +27,7 @@ import (
 
 	"github.com/deepflowio/deepflow/message/trident"
 	api "github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
 	"google.golang.org/protobuf/proto"
 )
 

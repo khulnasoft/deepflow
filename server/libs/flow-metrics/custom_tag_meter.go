@@ -20,9 +20,9 @@ import (
 	"encoding/binary"
 	"sort"
 
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	"github.com/deepflowio/deepflow/server/libs/datatype/prompb"
-	"github.com/deepflowio/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/datatype/prompb"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
 )
 
 type CustomTagMeterMeta struct {

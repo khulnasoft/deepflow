@@ -18,8 +18,8 @@ package tracemap
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/deepflowio/deepflow/server/querier/app/distributed_tracing/model"
-	"github.com/deepflowio/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/app/distributed_tracing/model"
+	"github.com/khulnasoft/deepflow/server/querier/config"
 )
 
 func TraceMap(args model.TraceMap, cfg *config.QuerierConfig, c *gin.Context, done chan bool, generator *TraceMapGenerator) {

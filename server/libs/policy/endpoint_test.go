@@ -22,8 +22,8 @@ import (
 
 	. "github.com/google/gopacket/layers"
 
-	. "github.com/deepflowio/deepflow/server/libs/datatype"
-	. "github.com/deepflowio/deepflow/server/libs/utils"
+	. "github.com/khulnasoft/deepflow/server/libs/datatype"
+	. "github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 // 平台信息有关测试

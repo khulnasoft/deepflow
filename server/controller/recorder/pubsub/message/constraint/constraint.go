@@ -17,7 +17,7 @@
 package constraint
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
 )
 
 type AddPtr[T Add] interface {

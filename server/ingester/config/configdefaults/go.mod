@@ -1,3 +1,3 @@
-module github.com/deepflowio/deepflow/server/ingester/config/configdefaults
+module github.com/khulnasoft/deepflow/server/ingester/config/configdefaults
 
 go 1.18

@@ -24,7 +24,7 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/deepflowio/deepflow/message/controller"
-	"github.com/deepflowio/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/common"
 )
 
 type GRPCURL struct{}

@@ -20,8 +20,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache"
 )
 
 func (t *SuiteTest) getVIPCacheAndCloudItem() (*cache.Cache, cloudmodel.VIP) {

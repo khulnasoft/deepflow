@@ -30,12 +30,12 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/ingesterctl"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/debug"
-	"github.com/deepflowio/deepflow/server/libs/grpc"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/debug"
+	"github.com/khulnasoft/deepflow/server/libs/grpc"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

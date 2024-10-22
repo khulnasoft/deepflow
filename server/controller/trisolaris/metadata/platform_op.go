@@ -26,10 +26,10 @@ import (
 	"gorm.io/gorm"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	models "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/common"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/utils"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	models "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/common"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"
 )
 
 type PlatformDataOP struct {

@@ -19,12 +19,12 @@ package node
 import (
 	"github.com/google/uuid"
 
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/common"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/utils"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/common"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 type ControllerDiscovery struct {

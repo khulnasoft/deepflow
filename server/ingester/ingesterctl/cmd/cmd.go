@@ -24,17 +24,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/droplet/profiler"
-	"github.com/deepflowio/deepflow/server/ingester/droplet/queue"
-	"github.com/deepflowio/deepflow/server/ingester/ingesterctl"
-	"github.com/deepflowio/deepflow/server/ingester/prometheus/decoder"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	"github.com/deepflowio/deepflow/server/libs/debug"
-	"github.com/deepflowio/deepflow/server/libs/receiver"
-	"github.com/deepflowio/deepflow/server/libs/tracetree"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/droplet/profiler"
+	"github.com/khulnasoft/deepflow/server/ingester/droplet/queue"
+	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl"
+	"github.com/khulnasoft/deepflow/server/ingester/prometheus/decoder"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/debug"
+	"github.com/khulnasoft/deepflow/server/libs/receiver"
+	"github.com/khulnasoft/deepflow/server/libs/tracetree"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 func RegisterIngesterCommand(root *cobra.Command) {

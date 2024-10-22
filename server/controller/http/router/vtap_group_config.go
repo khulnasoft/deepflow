@@ -22,11 +22,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 
-	"github.com/deepflowio/deepflow/server/agent_config"
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/http/common"
-	. "github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
+	"github.com/khulnasoft/deepflow/server/agent_config"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/http/common"
+	. "github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
 )
 
 type VTapGroupConfig struct {

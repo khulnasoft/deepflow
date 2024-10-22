@@ -25,15 +25,15 @@ import (
 	"github.com/prometheus/common/model"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/prometheus/config"
-	"github.com/deepflowio/deepflow/server/ingester/prometheus/dbwriter"
-	"github.com/deepflowio/deepflow/server/libs/datatype/prompb"
-	"github.com/deepflowio/deepflow/server/libs/grpc"
-	"github.com/deepflowio/deepflow/server/libs/pool"
-	"github.com/deepflowio/deepflow/server/libs/queue"
-	"github.com/deepflowio/deepflow/server/libs/stats"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/prometheus/config"
+	"github.com/khulnasoft/deepflow/server/ingester/prometheus/dbwriter"
+	"github.com/khulnasoft/deepflow/server/libs/datatype/prompb"
+	"github.com/khulnasoft/deepflow/server/libs/grpc"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 type SlowCounter struct {

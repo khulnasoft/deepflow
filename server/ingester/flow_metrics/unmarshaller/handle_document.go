@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/libs/app"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	flow_metrics "github.com/deepflowio/deepflow/server/libs/flow-metrics"
-	"github.com/deepflowio/deepflow/server/libs/grpc"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/libs/app"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	flow_metrics "github.com/khulnasoft/deepflow/server/libs/flow-metrics"
+	"github.com/khulnasoft/deepflow/server/libs/grpc"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

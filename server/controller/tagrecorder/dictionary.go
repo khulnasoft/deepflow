@@ -33,12 +33,12 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/clickhouse"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlCommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/clickhouse"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlCommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var (

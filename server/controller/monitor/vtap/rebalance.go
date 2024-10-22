@@ -21,11 +21,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
-	"github.com/deepflowio/deepflow/server/controller/http/service/rebalance"
-	"github.com/deepflowio/deepflow/server/controller/monitor/config"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
+	"github.com/khulnasoft/deepflow/server/controller/http/service/rebalance"
+	"github.com/khulnasoft/deepflow/server/controller/monitor/config"
 )
 
 var (

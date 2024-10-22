@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/libs/debug"
+	"github.com/khulnasoft/deepflow/server/libs/debug"
 
-	"github.com/deepflowio/deepflow/server/ingester/ingesterctl"
+	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl"
 )
 
 type MonitorOperator interface {

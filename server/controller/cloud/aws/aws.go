@@ -27,12 +27,12 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 	"github.com/bitly/go-simplejson"
 
-	cloudcommon "github.com/deepflowio/deepflow/server/controller/cloud/common"
-	cloudconfig "github.com/deepflowio/deepflow/server/controller/cloud/config"
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	cloudcommon "github.com/khulnasoft/deepflow/server/controller/cloud/common"
+	cloudconfig "github.com/khulnasoft/deepflow/server/controller/cloud/config"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logger.MustGetLogger("cloud.aws")

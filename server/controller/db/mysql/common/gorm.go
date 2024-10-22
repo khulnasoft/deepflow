@@ -30,7 +30,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/config"
 )
 
 func GetSession(cfg config.MySqlConfig) (*gorm.DB, error) {

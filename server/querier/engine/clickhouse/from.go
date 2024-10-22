@@ -21,10 +21,10 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
-	chCommon "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/trans_prometheus"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/view"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	chCommon "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/trans_prometheus"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/view"
 )
 
 type Table struct {

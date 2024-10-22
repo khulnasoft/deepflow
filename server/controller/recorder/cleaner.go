@@ -25,14 +25,14 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/common"
-	"github.com/deepflowio/deepflow/server/controller/recorder/config"
-	"github.com/deepflowio/deepflow/server/controller/recorder/constraint"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
-	"github.com/deepflowio/deepflow/server/controller/tagrecorder"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/common"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/config"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
+	"github.com/khulnasoft/deepflow/server/controller/tagrecorder"
 )
 
 var (

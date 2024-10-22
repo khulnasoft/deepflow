@@ -17,7 +17,7 @@
 package router
 
 import (
-	tracing_adapter "github.com/deepflowio/deepflow/server/querier/app/tracing-adapter"
+	tracing_adapter "github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter"
 	"github.com/gin-gonic/gin"
 )
 

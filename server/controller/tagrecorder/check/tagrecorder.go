@@ -29,10 +29,10 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/controller/tagrecorder"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/tagrecorder"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var (

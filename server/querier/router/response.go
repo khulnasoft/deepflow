@@ -21,7 +21,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/common"
 )
 
 type Response struct {

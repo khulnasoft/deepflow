@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/deepflowio/deepflow/server/libs/eventapi"
+	"github.com/khulnasoft/deepflow/server/libs/eventapi"
 )
 
 func TestEventManagerBase_convertToEventBeEnqueued(t *testing.T) {

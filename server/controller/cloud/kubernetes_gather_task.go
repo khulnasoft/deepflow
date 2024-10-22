@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/controller/cloud/config"
-	"github.com/deepflowio/deepflow/server/controller/cloud/kubernetes_gather"
-	kmodel "github.com/deepflowio/deepflow/server/controller/cloud/kubernetes_gather/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/config"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather"
+	kmodel "github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 type KubernetesGatherTask struct {

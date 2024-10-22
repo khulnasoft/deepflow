@@ -24,14 +24,14 @@ import (
 	logging "github.com/op/go-logging"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	ingestercommon "github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/pcap/config"
-	"github.com/deepflowio/deepflow/server/ingester/pcap/dbwriter"
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	"github.com/deepflowio/deepflow/server/libs/queue"
-	"github.com/deepflowio/deepflow/server/libs/receiver"
-	"github.com/deepflowio/deepflow/server/libs/stats"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	ingestercommon "github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/pcap/config"
+	"github.com/khulnasoft/deepflow/server/ingester/pcap/dbwriter"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/receiver"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 var log = logging.MustGetLogger("pcap.decoder")

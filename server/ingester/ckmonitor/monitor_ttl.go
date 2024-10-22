@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
 )
 
 func getFullTable(database, table string) string {

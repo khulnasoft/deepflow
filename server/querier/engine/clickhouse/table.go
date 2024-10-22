@@ -21,9 +21,9 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/client"
-	chCommon "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/client"
+	chCommon "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
 )
 
 func GetDatabases() *common.Result {

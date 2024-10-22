@@ -29,12 +29,12 @@ import (
 	"github.com/op/go-logging"
 	"gopkg.in/yaml.v2"
 
-	"github.com/deepflowio/deepflow/server/controller/config"
-	mysqlcommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	"github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service/resource"
-	"github.com/deepflowio/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	mysqlcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service/resource"
+	"github.com/khulnasoft/deepflow/server/controller/model"
 )
 
 var log = logging.MustGetLogger("controller.resource")

@@ -20,8 +20,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/deepflowio/deepflow/server/libs/stats"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/load"
 	"github.com/shirou/gopsutil/v3/cpu"

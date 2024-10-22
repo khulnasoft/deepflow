@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 func (g *Genesis) getNetworks() ([]model.Network, error) {

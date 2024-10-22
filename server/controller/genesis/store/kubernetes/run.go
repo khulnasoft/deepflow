@@ -26,12 +26,12 @@ import (
 
 	mcommon "github.com/deepflowio/deepflow/message/common"
 	api "github.com/deepflowio/deepflow/message/controller"
-	ccommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/genesis/common"
-	"github.com/deepflowio/deepflow/server/controller/statsd"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	ccommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	"github.com/khulnasoft/deepflow/server/controller/statsd"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 	"google.golang.org/grpc"
 )
 

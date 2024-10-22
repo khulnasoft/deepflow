@@ -21,7 +21,7 @@ import (
 	"math"
 	"net"
 
-	"github.com/deepflowio/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
 )
 
 var (

@@ -1,27 +1,27 @@
-module github.com/deepflowio/deepflow/server
+module github.com/khulnasoft/deepflow/server
 
 go 1.18
 
 replace (
 	cloud.google.com/go => cloud.google.com/go v0.103.0
-	github.com/deepflowio/deepflow/server/controller/cloud/kubernetes_gather/expand => ./controller/cloud/kubernetes_gather/expand
-	github.com/deepflowio/deepflow/server/controller/cloud/platform => ./controller/cloud/platform
-	github.com/deepflowio/deepflow/server/controller/cloud/tencent/expand => ./controller/cloud/tencent/expand
-	github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/edition => ./controller/db/mysql/migrator/edition
-	github.com/deepflowio/deepflow/server/controller/genesis/store/sync => ./controller/genesis/store/sync
-	github.com/deepflowio/deepflow/server/controller/http/appender => ./controller/http/appender
-	github.com/deepflowio/deepflow/server/controller/http/service/agentlicense => ./controller/http/service/agentlicense
-	github.com/deepflowio/deepflow/server/controller/http/service/configuration => ./controller/http/service/configuration
-	github.com/deepflowio/deepflow/server/controller/monitor/license => ./controller/monitor/license
-	github.com/deepflowio/deepflow/server/ingester/config/configdefaults => ./ingester/config/configdefaults
-	github.com/deepflowio/deepflow/server/ingester/flow_log/log_data/sw_import => ./ingester/flow_log/log_data/sw_import
-	github.com/deepflowio/deepflow/server/libs/logger/blocker => ./libs/logger/blocker
-	github.com/deepflowio/deepflow/server/querier/app/distributed_tracing/service/tracemap => ./querier/app/distributed_tracing/service/tracemap
-	github.com/deepflowio/deepflow/server/querier/app/prometheus/router/packet_adapter => ./querier/app/prometheus/router/packet_adapter
-	github.com/deepflowio/deepflow/server/querier/app/prometheus/service/packet_wrapper => ./querier/app/prometheus/service/packet_wrapper
-	github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/service/packet_service => ./querier/app/tracing-adapter/service/packet_service
-	github.com/deepflowio/deepflow/server/querier/engine/clickhouse/packet_batch => ./querier/engine/clickhouse/packet_batch
 	github.com/ionos-cloud/sdk-go/v6 => github.com/ionos-cloud/sdk-go/v6 v6.1.0
+	github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/expand => ./controller/cloud/kubernetes_gather/expand
+	github.com/khulnasoft/deepflow/server/controller/cloud/platform => ./controller/cloud/platform
+	github.com/khulnasoft/deepflow/server/controller/cloud/tencent/expand => ./controller/cloud/tencent/expand
+	github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/edition => ./controller/db/mysql/migrator/edition
+	github.com/khulnasoft/deepflow/server/controller/genesis/store/sync => ./controller/genesis/store/sync
+	github.com/khulnasoft/deepflow/server/controller/http/appender => ./controller/http/appender
+	github.com/khulnasoft/deepflow/server/controller/http/service/agentlicense => ./controller/http/service/agentlicense
+	github.com/khulnasoft/deepflow/server/controller/http/service/configuration => ./controller/http/service/configuration
+	github.com/khulnasoft/deepflow/server/controller/monitor/license => ./controller/monitor/license
+	github.com/khulnasoft/deepflow/server/ingester/config/configdefaults => ./ingester/config/configdefaults
+	github.com/khulnasoft/deepflow/server/ingester/flow_log/log_data/sw_import => ./ingester/flow_log/log_data/sw_import
+	github.com/khulnasoft/deepflow/server/libs/logger/blocker => ./libs/logger/blocker
+	github.com/khulnasoft/deepflow/server/querier/app/distributed_tracing/service/tracemap => ./querier/app/distributed_tracing/service/tracemap
+	github.com/khulnasoft/deepflow/server/querier/app/prometheus/router/packet_adapter => ./querier/app/prometheus/router/packet_adapter
+	github.com/khulnasoft/deepflow/server/querier/app/prometheus/service/packet_wrapper => ./querier/app/prometheus/service/packet_wrapper
+	github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/service/packet_service => ./querier/app/tracing-adapter/service/packet_service
+	github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/packet_batch => ./querier/engine/clickhouse/packet_batch
 )
 
 require (
@@ -43,14 +43,6 @@ require (
 	github.com/deckarep/golang-set v1.8.0
 	github.com/deckarep/golang-set/v2 v2.1.0
 	github.com/deepflowio/deepflow/message v0.0.0-20240924113131-ec9660ac2e46
-	github.com/deepflowio/deepflow/server/controller/cloud/kubernetes_gather/expand v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/controller/cloud/platform v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/controller/cloud/tencent/expand v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/edition v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/controller/genesis/store/sync v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/controller/monitor/license v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/ingester/config/configdefaults v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/querier/engine/clickhouse/packet_batch v0.0.0-00010101000000-000000000000
 	github.com/deepflowio/tempopb v0.0.0-20230215110519-15853baf3a79
 	github.com/docker/go-units v0.4.0
 	github.com/gin-gonic/gin v1.9.1
@@ -104,17 +96,25 @@ require (
 	github.com/IBM/sarama v1.43.0
 	github.com/aws/aws-sdk-go-v2/service/eks v1.26.0
 	github.com/bytedance/sonic v1.11.8
-	github.com/deepflowio/deepflow/server/controller/http/appender v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/controller/http/service/agentlicense v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/ingester/flow_log/log_data/sw_import v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/libs/logger/blocker v0.0.0-20240822020041-cdaf0f82ce6f
-	github.com/deepflowio/deepflow/server/querier/app/distributed_tracing/service/tracemap v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/querier/app/prometheus/router/packet_adapter v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/querier/app/prometheus/service/packet_wrapper v0.0.0-00010101000000-000000000000
-	github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/service/packet_service v0.0.0-00010101000000-000000000000
 	github.com/go-redis/redis/v9 v9.0.0-rc.2
 	github.com/golang/mock v1.6.0
 	github.com/grafana/pyroscope-go v1.0.4
+	github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/expand v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/cloud/platform v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/cloud/tencent/expand v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/edition v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/genesis/store/sync v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/http/appender v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/http/service/agentlicense v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/controller/monitor/license v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/ingester/config/configdefaults v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/ingester/flow_log/log_data/sw_import v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/libs/logger/blocker v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/querier/app/distributed_tracing/service/tracemap v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/querier/app/prometheus/router/packet_adapter v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/querier/app/prometheus/service/packet_wrapper v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/service/packet_service v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/packet_batch v0.0.0-00010101000000-000000000000
 	github.com/klauspost/compress v1.17.7
 	github.com/mitchellh/mapstructure v1.4.3
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826

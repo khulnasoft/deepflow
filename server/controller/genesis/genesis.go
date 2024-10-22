@@ -20,16 +20,16 @@ import (
 	"context"
 	"os"
 
-	ccommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/genesis/common"
-	"github.com/deepflowio/deepflow/server/controller/genesis/grpc"
-	kstore "github.com/deepflowio/deepflow/server/controller/genesis/store/kubernetes"
-	sstore "github.com/deepflowio/deepflow/server/controller/genesis/store/sync"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	ccommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/grpc"
+	kstore "github.com/khulnasoft/deepflow/server/controller/genesis/store/kubernetes"
+	sstore "github.com/khulnasoft/deepflow/server/controller/genesis/store/sync"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 var log = logger.MustGetLogger("genesis")

@@ -24,11 +24,11 @@ import (
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/deepflowio/deepflow/server/controller/genesis"
-	grpcserver "github.com/deepflowio/deepflow/server/controller/grpc"
-	"github.com/deepflowio/deepflow/server/controller/grpc/statsd"
-	prometheus "github.com/deepflowio/deepflow/server/controller/prometheus/service/grpc"
-	trisolaris "github.com/deepflowio/deepflow/server/controller/trisolaris/services/grpc/synchronize"
+	"github.com/khulnasoft/deepflow/server/controller/genesis"
+	grpcserver "github.com/khulnasoft/deepflow/server/controller/grpc"
+	"github.com/khulnasoft/deepflow/server/controller/grpc/statsd"
+	prometheus "github.com/khulnasoft/deepflow/server/controller/prometheus/service/grpc"
+	trisolaris "github.com/khulnasoft/deepflow/server/controller/trisolaris/services/grpc/synchronize"
 )
 
 type service struct {

@@ -19,8 +19,8 @@ package router
 import (
 	"fmt"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	routercommon "github.com/deepflowio/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	routercommon "github.com/khulnasoft/deepflow/server/controller/http/router/common"
 	"github.com/gin-gonic/gin"
 )
 

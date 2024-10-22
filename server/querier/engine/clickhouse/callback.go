@@ -24,12 +24,12 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/libs/utils"
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/client"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/tag"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/view"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/client"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/tag"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/view"
 )
 
 var TIME_FILL_LIMIT_DEFAULT = 20

@@ -25,17 +25,17 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 
-	cloudcfg "github.com/deepflowio/deepflow/server/controller/cloud/config"
-	gathermodel "github.com/deepflowio/deepflow/server/controller/cloud/kubernetes_gather/model"
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/manager/config"
-	"github.com/deepflowio/deepflow/server/controller/recorder"
-	recordercfg "github.com/deepflowio/deepflow/server/controller/recorder/config"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	cloudcfg "github.com/khulnasoft/deepflow/server/controller/cloud/config"
+	gathermodel "github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/model"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/manager/config"
+	"github.com/khulnasoft/deepflow/server/controller/recorder"
+	recordercfg "github.com/khulnasoft/deepflow/server/controller/recorder/config"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 var log = logger.MustGetLogger("manager")

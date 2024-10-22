@@ -20,9 +20,9 @@ package constraint
 import (
 	"time"
 
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/diffbase"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/diffbase"
 )
 
 type MySQLModelPtr[T MySQLModel] interface {

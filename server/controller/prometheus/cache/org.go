@@ -25,10 +25,10 @@ import (
 	cmap "github.com/orcaman/concurrent-map/v2"
 	"golang.org/x/exp/slices"
 
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/common"
-	prometheuscfg "github.com/deepflowio/deepflow/server/controller/prometheus/config"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/common"
+	prometheuscfg "github.com/khulnasoft/deepflow/server/controller/prometheus/config"
 )
 
 func GetCache(orgID int) (*Cache, error) {

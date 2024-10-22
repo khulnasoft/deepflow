@@ -25,15 +25,15 @@ import (
 
 	"github.com/google/gopacket/layers"
 
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/flow_log/geo"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	"github.com/deepflowio/deepflow/server/libs/datatype/pb"
-	flow_metrics "github.com/deepflowio/deepflow/server/libs/flow-metrics"
-	"github.com/deepflowio/deepflow/server/libs/grpc"
-	"github.com/deepflowio/deepflow/server/libs/pool"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_log/geo"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/libs/datatype/pb"
+	flow_metrics "github.com/khulnasoft/deepflow/server/libs/flow-metrics"
+	"github.com/khulnasoft/deepflow/server/libs/grpc"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

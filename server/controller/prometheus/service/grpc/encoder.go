@@ -20,7 +20,7 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/deepflowio/deepflow/message/controller"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/encoder"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/encoder"
 )
 
 type EncoderEvent struct{}

@@ -31,10 +31,10 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/cache"
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/cache"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse"
 )
 
 // prometheusReader's lifecycle is belong to each query through api

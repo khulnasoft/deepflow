@@ -23,14 +23,14 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/genesis"
-	gcommon "github.com/deepflowio/deepflow/server/controller/genesis/common"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	. "github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
-	"github.com/deepflowio/deepflow/server/controller/manager"
-	"github.com/deepflowio/deepflow/server/controller/model"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/genesis"
+	gcommon "github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	. "github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
+	"github.com/khulnasoft/deepflow/server/controller/manager"
+	"github.com/khulnasoft/deepflow/server/controller/model"
 )
 
 type Debug struct {

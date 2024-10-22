@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/ingester/exporters/config"
-	utag "github.com/deepflowio/deepflow/server/ingester/exporters/universal_tag"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/ingester/exporters/config"
+	utag "github.com/khulnasoft/deepflow/server/ingester/exporters/universal_tag"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 	logging "github.com/op/go-logging"
 )
 

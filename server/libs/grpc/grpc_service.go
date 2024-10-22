@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/libs/utils"
 	"github.com/google/gopacket/layers"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 type ServiceTable struct {

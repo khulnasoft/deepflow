@@ -32,15 +32,15 @@ import (
 	"github.com/xwb1989/sqlparser"
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/client"
-	chCommon "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/metrics"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/tag"
-	tagdescription "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/tag"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/view"
-	"github.com/deepflowio/deepflow/server/querier/parse"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/client"
+	chCommon "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/metrics"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/tag"
+	tagdescription "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/tag"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/view"
+	"github.com/khulnasoft/deepflow/server/querier/parse"
 )
 
 var log = logging.MustGetLogger("clickhouse")

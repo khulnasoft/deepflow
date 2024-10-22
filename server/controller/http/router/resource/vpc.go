@@ -19,9 +19,9 @@ package resource
 import (
 	"github.com/gin-gonic/gin"
 
-	ctrlcommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service/resource"
+	ctrlcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service/resource"
 )
 
 type VPC struct{}

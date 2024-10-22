@@ -17,7 +17,7 @@
 package listener
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/recorder/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/constraint"
 )
 
 type Listener[CT constraint.CloudModel, MT constraint.MySQLModel, BT constraint.DiffBase] interface {

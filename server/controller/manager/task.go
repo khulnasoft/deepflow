@@ -23,13 +23,13 @@ import (
 
 	cmap "github.com/orcaman/concurrent-map/v2"
 
-	"github.com/deepflowio/deepflow/server/controller/cloud"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/manager/config"
-	"github.com/deepflowio/deepflow/server/controller/recorder"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/controller/cloud"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/manager/config"
+	"github.com/khulnasoft/deepflow/server/controller/recorder"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 var recorderRefreshTryInterval = 5 // unit: s

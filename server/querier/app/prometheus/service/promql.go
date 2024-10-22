@@ -38,13 +38,13 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/libs/lru"
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/cache"
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	chCommon "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
-	tagdescription "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/tag"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/libs/lru"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/cache"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	chCommon "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
+	tagdescription "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/tag"
 )
 
 // The Series API supports returning the following time series (metrics):

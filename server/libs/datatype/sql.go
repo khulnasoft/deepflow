@@ -21,8 +21,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/deepflowio/deepflow/server/libs/datatype/pb"
-	"github.com/deepflowio/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/datatype/pb"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
 )
 
 var mysqlInfoPool = pool.NewLockFreePool(func() interface{} {

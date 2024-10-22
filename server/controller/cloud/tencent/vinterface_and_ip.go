@@ -19,9 +19,9 @@ package tencent
 import (
 	"inet.af/netaddr"
 
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 func (t *Tencent) getVInterfacesAndIPs(region string) ([]model.VInterface, []model.IP, []model.NATRule, error) {

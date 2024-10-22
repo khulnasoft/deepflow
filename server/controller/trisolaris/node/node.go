@@ -32,17 +32,17 @@ import (
 	"gorm.io/gorm"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	models "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/http/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/common"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/config"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/dbmgr"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/metadata"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/pushmanager"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/utils"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	models "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/http/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/common"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/config"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/dbmgr"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/metadata"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/pushmanager"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logger.MustGetLogger("trisolaris.node")

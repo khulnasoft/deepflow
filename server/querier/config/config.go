@@ -26,10 +26,10 @@ import (
 	logging "github.com/op/go-logging"
 	yaml "gopkg.in/yaml.v2"
 
-	tracemap "github.com/deepflowio/deepflow/server/querier/app/distributed_tracing/config"
-	prometheus "github.com/deepflowio/deepflow/server/querier/app/prometheus/config"
-	tracing_adapter "github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/config"
-	profile "github.com/deepflowio/deepflow/server/querier/profile/config"
+	tracemap "github.com/khulnasoft/deepflow/server/querier/app/distributed_tracing/config"
+	prometheus "github.com/khulnasoft/deepflow/server/querier/app/prometheus/config"
+	tracing_adapter "github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/config"
+	profile "github.com/khulnasoft/deepflow/server/querier/profile/config"
 )
 
 var log = logging.MustGetLogger("clickhouse")

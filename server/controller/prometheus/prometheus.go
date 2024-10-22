@@ -19,8 +19,8 @@ package prometheus
 import (
 	"sync"
 
-	"github.com/deepflowio/deepflow/server/controller/prometheus/cache"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/encoder"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/cache"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/encoder"
 )
 
 var (

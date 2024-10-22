@@ -19,15 +19,15 @@ package pcap
 import (
 	"time"
 
-	dropletqueue "github.com/deepflowio/deepflow/server/ingester/droplet/queue"
-	"github.com/deepflowio/deepflow/server/ingester/ingesterctl"
-	"github.com/deepflowio/deepflow/server/ingester/pcap/config"
-	"github.com/deepflowio/deepflow/server/ingester/pcap/dbwriter"
-	"github.com/deepflowio/deepflow/server/ingester/pcap/decoder"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	"github.com/deepflowio/deepflow/server/libs/queue"
-	libqueue "github.com/deepflowio/deepflow/server/libs/queue"
-	"github.com/deepflowio/deepflow/server/libs/receiver"
+	dropletqueue "github.com/khulnasoft/deepflow/server/ingester/droplet/queue"
+	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl"
+	"github.com/khulnasoft/deepflow/server/ingester/pcap/config"
+	"github.com/khulnasoft/deepflow/server/ingester/pcap/dbwriter"
+	"github.com/khulnasoft/deepflow/server/ingester/pcap/decoder"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
+	libqueue "github.com/khulnasoft/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/receiver"
 )
 
 type Pcaper struct {

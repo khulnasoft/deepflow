@@ -21,9 +21,9 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/libs/eventapi"
-	"github.com/deepflowio/deepflow/server/libs/queue"
-	"github.com/deepflowio/deepflow/server/libs/tracetree"
+	"github.com/khulnasoft/deepflow/server/libs/eventapi"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/tracetree"
 	logging "github.com/op/go-logging"
 	yaml "gopkg.in/yaml.v2"
 )

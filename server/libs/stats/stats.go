@@ -33,9 +33,9 @@ import (
 	logging "github.com/op/go-logging"
 	statsd "gopkg.in/alexcesaro/statsd.v2"
 
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	. "github.com/deepflowio/deepflow/server/libs/datastructure"
-	"github.com/deepflowio/deepflow/server/libs/stats/pb"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	. "github.com/khulnasoft/deepflow/server/libs/datastructure"
+	"github.com/khulnasoft/deepflow/server/libs/stats/pb"
 )
 
 var log = logging.MustGetLogger("stats")

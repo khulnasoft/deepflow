@@ -25,11 +25,11 @@ import (
 	"github.com/prometheus/prometheus/prompb"
 	"github.com/prometheus/prometheus/promql"
 
-	"github.com/deepflowio/deepflow/server/libs/datastructure"
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/service/packet_wrapper"
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/libs/datastructure"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/service/packet_wrapper"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
 )
 
 var log = logging.MustGetLogger("prometheus")

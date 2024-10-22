@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
 	"github.com/prometheus/prometheus/model/labels"
 )
 

@@ -18,9 +18,9 @@ package kubernetes_gather
 
 import (
 	"github.com/bitly/go-simplejson"
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 func (k *KubernetesGather) getPodNamespaces() ([]model.PodNamespace, error) {

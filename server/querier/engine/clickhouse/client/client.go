@@ -28,9 +28,9 @@ import (
 	clickhouse "github.com/ClickHouse/clickhouse-go/v2"
 	//"github.com/k0kubun/pp"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/statsd"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/statsd"
 	"github.com/google/uuid"
 	logging "github.com/op/go-logging"
 )

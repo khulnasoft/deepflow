@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	flow_metrics "github.com/deepflowio/deepflow/server/libs/flow-metrics"
-	"github.com/deepflowio/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	flow_metrics "github.com/khulnasoft/deepflow/server/libs/flow-metrics"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
 )
 
 const SPAN_TRACE_VERSION = 0x12

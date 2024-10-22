@@ -27,15 +27,15 @@ import (
 	mapset "github.com/deckarep/golang-set/v2"
 	"gorm.io/gorm"
 
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	controllercommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	servicecommon "github.com/deepflowio/deepflow/server/controller/http/service/common"
-	"github.com/deepflowio/deepflow/server/controller/model"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	controllercommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	servicecommon "github.com/khulnasoft/deepflow/server/controller/http/service/common"
+	"github.com/khulnasoft/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 const (

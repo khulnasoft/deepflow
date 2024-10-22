@@ -25,11 +25,11 @@ import (
 	"gopkg.in/yaml.v3"
 	"gorm.io/gorm"
 
-	agentconf "github.com/deepflowio/deepflow/server/agent_config"
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
+	agentconf "github.com/khulnasoft/deepflow/server/agent_config"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
 )
 
 var (

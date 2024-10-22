@@ -22,12 +22,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 
-	"github.com/deepflowio/deepflow/server/controller/config"
-	mysqlcfg "github.com/deepflowio/deepflow/server/controller/db/mysql/config"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	"github.com/deepflowio/deepflow/server/controller/http/model"
-	"github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	mysqlcfg "github.com/khulnasoft/deepflow/server/controller/db/mysql/config"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/model"
+	"github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
 )
 
 type ORGData struct {

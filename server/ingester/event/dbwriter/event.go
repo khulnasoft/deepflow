@@ -23,15 +23,15 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	basecommon "github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/event/common"
-	exportercommon "github.com/deepflowio/deepflow/server/ingester/exporters/common"
-	"github.com/deepflowio/deepflow/server/ingester/exporters/config"
-	utag "github.com/deepflowio/deepflow/server/ingester/exporters/universal_tag"
-	"github.com/deepflowio/deepflow/server/ingester/flow_tag"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/pool"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	basecommon "github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/event/common"
+	exportercommon "github.com/khulnasoft/deepflow/server/ingester/exporters/common"
+	"github.com/khulnasoft/deepflow/server/ingester/exporters/config"
+	utag "github.com/khulnasoft/deepflow/server/ingester/exporters/universal_tag"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_tag"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

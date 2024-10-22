@@ -31,15 +31,15 @@ import (
 
 	logging "github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/libs/app"
-	"github.com/deepflowio/deepflow/server/libs/cache"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	"github.com/deepflowio/deepflow/server/libs/debug"
-	"github.com/deepflowio/deepflow/server/libs/pool"
-	"github.com/deepflowio/deepflow/server/libs/queue"
-	"github.com/deepflowio/deepflow/server/libs/stats"
-	. "github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/libs/app"
+	"github.com/khulnasoft/deepflow/server/libs/cache"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/libs/debug"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
+	. "github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

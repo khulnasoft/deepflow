@@ -19,8 +19,8 @@ package edition
 import (
 	"gorm.io/gorm"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/common"
 )
 
 func CheckDBVersion(db *gorm.DB, cfg config.MySqlConfig) error {

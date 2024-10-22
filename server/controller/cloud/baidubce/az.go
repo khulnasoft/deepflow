@@ -21,9 +21,9 @@ import (
 
 	"github.com/baidubce/bce-sdk-go/services/bcc"
 
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 func (b *BaiduBce) getAZs() ([]model.AZ, map[string]string, error) {

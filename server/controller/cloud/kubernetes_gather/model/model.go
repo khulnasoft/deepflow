@@ -19,7 +19,7 @@ package model
 import (
 	"time"
 
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
 )
 
 type KubernetesGatherResource struct {

@@ -19,7 +19,7 @@ package vtap
 import (
 	"fmt"
 
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logger.MustGetLogger("http.service.vtap")

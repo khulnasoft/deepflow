@@ -24,7 +24,7 @@ import (
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	logging "github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 var log = logging.MustGetLogger("ckdb")

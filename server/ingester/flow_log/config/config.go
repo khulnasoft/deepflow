@@ -23,8 +23,8 @@ import (
 	logging "github.com/op/go-logging"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/deepflowio/deepflow/server/ingester/config"
-	"github.com/deepflowio/deepflow/server/ingester/config/configdefaults"
+	"github.com/khulnasoft/deepflow/server/ingester/config"
+	"github.com/khulnasoft/deepflow/server/ingester/config/configdefaults"
 )
 
 var log = logging.MustGetLogger("flow_log.config")

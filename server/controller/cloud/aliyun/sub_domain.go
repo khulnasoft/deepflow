@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/cs"
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 func (a *Aliyun) getSubDomains(region model.Region) []model.SubDomain {

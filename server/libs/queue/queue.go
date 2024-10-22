@@ -27,8 +27,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/libs/stats"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 var OverflowError = errors.New("Requested size is larger than capacity")

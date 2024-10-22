@@ -21,12 +21,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	. "github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/server/http/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	. "github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/server/http/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 type VtapRepo struct{}

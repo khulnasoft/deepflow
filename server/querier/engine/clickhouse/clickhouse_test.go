@@ -30,11 +30,11 @@ import (
 
 	//"github.com/k0kubun/pp"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/client"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/metrics"
-	"github.com/deepflowio/deepflow/server/querier/parse"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/client"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/metrics"
+	"github.com/khulnasoft/deepflow/server/querier/parse"
 )
 
 /* var (

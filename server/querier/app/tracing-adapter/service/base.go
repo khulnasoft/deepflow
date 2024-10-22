@@ -17,8 +17,8 @@
 package service
 
 import (
-	"github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/model"
-	"github.com/deepflowio/deepflow/server/querier/app/tracing-adapter/service/packet_service"
+	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/model"
+	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/service/packet_service"
 	"github.com/op/go-logging"
 )
 

@@ -21,10 +21,10 @@ import (
 
 	mapset "github.com/deckarep/golang-set/v2"
 
-	cloudcommon "github.com/deepflowio/deepflow/server/controller/cloud/common"
-	"github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	cloudcommon "github.com/khulnasoft/deepflow/server/controller/cloud/common"
+	"github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 func (h *HuaWei) getRDSInstances() ([]model.RDSInstance, []model.VInterface, []model.IP, error) {

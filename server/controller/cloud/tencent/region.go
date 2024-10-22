@@ -17,7 +17,7 @@
 package tencent
 
 import (
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 func (t *Tencent) getRegions() ([]string, error) {

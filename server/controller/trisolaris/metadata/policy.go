@@ -26,12 +26,12 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 	"github.com/deepflowio/deepflow/message/trident"
-	models "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
 	"github.com/golang/protobuf/proto"
+	models "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/common"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/utils"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/common"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"
 )
 
 type PolicyRawData struct {

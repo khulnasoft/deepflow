@@ -28,15 +28,15 @@ import (
 
 	"github.com/bitly/go-simplejson"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/cache"
-	prometheuscommon "github.com/deepflowio/deepflow/server/controller/prometheus/common"
-	prometheuscfg "github.com/deepflowio/deepflow/server/controller/prometheus/config"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/encoder"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	queriercfg "github.com/deepflowio/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/cache"
+	prometheuscommon "github.com/khulnasoft/deepflow/server/controller/prometheus/common"
+	prometheuscfg "github.com/khulnasoft/deepflow/server/controller/prometheus/config"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/encoder"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	queriercfg "github.com/khulnasoft/deepflow/server/querier/config"
 )
 
 var (

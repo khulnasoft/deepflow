@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/schema"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/schema/script"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/schema"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/schema/script"
 )
 
 func ExecuteCEIssues(dc *DBConfig, curVersion string) error {

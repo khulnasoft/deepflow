@@ -20,7 +20,7 @@ package recorder
 import (
 	"reflect"
 
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache"
 )
 
 // TODO remove

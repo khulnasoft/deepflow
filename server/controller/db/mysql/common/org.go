@@ -21,7 +21,7 @@ import (
 
 	"github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/config"
 )
 
 var log = logging.MustGetLogger("db.mysql.common")

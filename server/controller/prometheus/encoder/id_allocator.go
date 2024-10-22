@@ -21,7 +21,7 @@ import (
 	"sort"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/common"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/common"
 )
 
 type sorter interface {

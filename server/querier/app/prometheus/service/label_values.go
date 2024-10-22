@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse"
-	chCommon "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/metrics"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse"
+	chCommon "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/metrics"
 )
 
 const (

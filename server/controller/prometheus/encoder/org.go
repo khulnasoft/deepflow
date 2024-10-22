@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	prometheuscfg "github.com/deepflowio/deepflow/server/controller/prometheus/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	prometheuscfg "github.com/khulnasoft/deepflow/server/controller/prometheus/config"
 )
 
 var (

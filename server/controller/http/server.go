@@ -25,16 +25,16 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/genesis"
-	"github.com/deepflowio/deepflow/server/controller/http/appender"
-	"github.com/deepflowio/deepflow/server/controller/http/common/registrant"
-	"github.com/deepflowio/deepflow/server/controller/http/router"
-	"github.com/deepflowio/deepflow/server/controller/http/router/resource"
-	"github.com/deepflowio/deepflow/server/controller/manager"
-	"github.com/deepflowio/deepflow/server/controller/monitor"
-	trouter "github.com/deepflowio/deepflow/server/controller/trisolaris/server/http"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/genesis"
+	"github.com/khulnasoft/deepflow/server/controller/http/appender"
+	"github.com/khulnasoft/deepflow/server/controller/http/common/registrant"
+	"github.com/khulnasoft/deepflow/server/controller/http/router"
+	"github.com/khulnasoft/deepflow/server/controller/http/router/resource"
+	"github.com/khulnasoft/deepflow/server/controller/manager"
+	"github.com/khulnasoft/deepflow/server/controller/monitor"
+	trouter "github.com/khulnasoft/deepflow/server/controller/trisolaris/server/http"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logging.MustGetLogger("http")

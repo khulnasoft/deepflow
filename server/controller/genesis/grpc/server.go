@@ -29,14 +29,14 @@ import (
 	tridentcommon "github.com/deepflowio/deepflow/message/common"
 	"github.com/deepflowio/deepflow/message/controller"
 	"github.com/deepflowio/deepflow/message/trident"
-	controllercommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlcommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	"github.com/deepflowio/deepflow/server/controller/genesis/common"
-	"github.com/deepflowio/deepflow/server/controller/genesis/config"
-	kstore "github.com/deepflowio/deepflow/server/controller/genesis/store/kubernetes"
-	sstore "github.com/deepflowio/deepflow/server/controller/genesis/store/sync"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	controllercommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
+	"github.com/khulnasoft/deepflow/server/controller/genesis/config"
+	kstore "github.com/khulnasoft/deepflow/server/controller/genesis/store/kubernetes"
+	sstore "github.com/khulnasoft/deepflow/server/controller/genesis/store/sync"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 var log = logger.MustGetLogger("genesis.grpc")

@@ -26,7 +26,7 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/libs/grpc"
+	"github.com/khulnasoft/deepflow/server/libs/grpc"
 )
 
 const SYNC_INTERVAL_FAST = 5 * time.Second // When the system first starts, increase the request frequency and obtain Node/Pod information as soon as possible.

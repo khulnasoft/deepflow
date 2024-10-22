@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 type AccessType string

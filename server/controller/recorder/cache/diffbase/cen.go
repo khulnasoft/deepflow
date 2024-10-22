@@ -17,11 +17,11 @@
 package diffbase
 
 import (
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/cache/tool"
-	rcommon "github.com/deepflowio/deepflow/server/controller/recorder/common"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/cache/tool"
+	rcommon "github.com/khulnasoft/deepflow/server/controller/recorder/common"
 )
 
 func (b *DataSet) AddCEN(dbItem *mysqlmodel.CEN, seq int, toolDataSet *tool.DataSet) {

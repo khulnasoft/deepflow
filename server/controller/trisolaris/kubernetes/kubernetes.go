@@ -26,19 +26,19 @@ import (
 
 	"context"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	cconfig "github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlcommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	models "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	resourceservice "github.com/deepflowio/deepflow/server/controller/http/service/resource"
-	"github.com/deepflowio/deepflow/server/controller/model"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/config"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/dbmgr"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/utils"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	cconfig "github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	models "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	resourceservice "github.com/khulnasoft/deepflow/server/controller/http/service/resource"
+	"github.com/khulnasoft/deepflow/server/controller/model"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/config"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/dbmgr"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logger.MustGetLogger("trisolaris.kubernetes")

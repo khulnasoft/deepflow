@@ -23,9 +23,9 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/client"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/client"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
 )
 
 var EXT_METRICS = map[string]*Metrics{}

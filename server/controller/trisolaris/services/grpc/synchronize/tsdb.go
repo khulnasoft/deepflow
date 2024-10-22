@@ -24,11 +24,11 @@ import (
 	context "golang.org/x/net/context"
 
 	api "github.com/deepflowio/deepflow/message/trident"
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/common"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/pushmanager"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/common"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/pushmanager"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logger.MustGetLogger("trisolaris.synchronize")

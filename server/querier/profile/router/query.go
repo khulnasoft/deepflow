@@ -22,11 +22,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/profile/common"
-	"github.com/deepflowio/deepflow/server/querier/profile/model"
-	"github.com/deepflowio/deepflow/server/querier/profile/service"
-	"github.com/deepflowio/deepflow/server/querier/router"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/profile/common"
+	"github.com/khulnasoft/deepflow/server/querier/profile/model"
+	"github.com/khulnasoft/deepflow/server/querier/profile/service"
+	"github.com/khulnasoft/deepflow/server/querier/router"
 )
 
 func ProfileRouter(e *gin.Engine, cfg *config.QuerierConfig) {

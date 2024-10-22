@@ -17,8 +17,8 @@
 package flow_metrics
 
 import (
-	"github.com/deepflowio/deepflow/server/libs/codec"
-	"github.com/deepflowio/deepflow/server/libs/flow-metrics/pb"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/flow-metrics/pb"
 
 	"testing"
 )

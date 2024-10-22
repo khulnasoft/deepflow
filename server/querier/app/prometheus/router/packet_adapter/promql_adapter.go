@@ -17,7 +17,7 @@
 package packet_adapter
 
 import (
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/service"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/service"
 	"github.com/gin-gonic/gin"
 )
 

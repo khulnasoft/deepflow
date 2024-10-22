@@ -22,7 +22,7 @@ import (
 	"encoding/gob"
 	"net"
 
-	. "github.com/deepflowio/deepflow/server/libs/utils"
+	. "github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 type IP struct {

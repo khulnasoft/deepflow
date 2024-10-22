@@ -17,8 +17,8 @@
 package diffbase
 
 import (
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 )
 
 func (b *DataSet) AddNATVMConnection(dbItem *mysqlmodel.NATVMConnection, seq int) {

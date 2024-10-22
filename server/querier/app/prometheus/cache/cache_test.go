@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	cfg "github.com/deepflowio/deepflow/server/querier/app/prometheus/config"
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
+	cfg "github.com/khulnasoft/deepflow/server/querier/app/prometheus/config"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
 	"github.com/prometheus/prometheus/prompb"
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/view"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/view"
 )
 
 func TestTimeFill(t *testing.T) {

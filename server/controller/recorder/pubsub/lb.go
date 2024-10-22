@@ -17,8 +17,8 @@
 package pubsub
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
 )
 
 type LB struct {

@@ -23,9 +23,9 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/deepflowio/deepflow/message/controller"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/cache"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/cache"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/common"
 )
 
 type metricTarget struct {

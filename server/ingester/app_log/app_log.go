@@ -20,17 +20,17 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/ingester/app_log/config"
-	"github.com/deepflowio/deepflow/server/ingester/app_log/dbwriter"
-	"github.com/deepflowio/deepflow/server/ingester/app_log/decoder"
-	dropletqueue "github.com/deepflowio/deepflow/server/ingester/droplet/queue"
-	"github.com/deepflowio/deepflow/server/ingester/ingesterctl"
-	"github.com/deepflowio/deepflow/server/ingester/pkg/ckwriter"
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	"github.com/deepflowio/deepflow/server/libs/grpc"
-	"github.com/deepflowio/deepflow/server/libs/queue"
-	libqueue "github.com/deepflowio/deepflow/server/libs/queue"
-	"github.com/deepflowio/deepflow/server/libs/receiver"
+	"github.com/khulnasoft/deepflow/server/ingester/app_log/config"
+	"github.com/khulnasoft/deepflow/server/ingester/app_log/dbwriter"
+	"github.com/khulnasoft/deepflow/server/ingester/app_log/decoder"
+	dropletqueue "github.com/khulnasoft/deepflow/server/ingester/droplet/queue"
+	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl"
+	"github.com/khulnasoft/deepflow/server/ingester/pkg/ckwriter"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/libs/grpc"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
+	libqueue "github.com/khulnasoft/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/receiver"
 )
 
 type ApplicationLogger struct {

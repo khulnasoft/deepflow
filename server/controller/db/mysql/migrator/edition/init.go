@@ -19,7 +19,7 @@ package edition
 import (
 	"github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/common"
 )
 
 var log = logging.MustGetLogger("db.mysql.migrator.edition")

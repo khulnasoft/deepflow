@@ -17,9 +17,9 @@
 package clickhouse
 
 import (
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse/client"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/client"
 )
 
 func SimpleExecute(args *common.QuerierParams) (result *common.Result, debug map[string]interface{}, err error) {

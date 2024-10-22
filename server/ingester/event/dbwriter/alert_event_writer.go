@@ -20,13 +20,13 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	basecommon "github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/event/common"
-	"github.com/deepflowio/deepflow/server/ingester/event/config"
-	"github.com/deepflowio/deepflow/server/ingester/flow_tag"
-	"github.com/deepflowio/deepflow/server/ingester/pkg/ckwriter"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	"github.com/deepflowio/deepflow/server/libs/pool"
+	basecommon "github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/event/common"
+	"github.com/khulnasoft/deepflow/server/ingester/event/config"
+	"github.com/khulnasoft/deepflow/server/ingester/flow_tag"
+	"github.com/khulnasoft/deepflow/server/ingester/pkg/ckwriter"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/pool"
 )
 
 var alertEventPool = pool.NewLockFreePool(func() interface{} {

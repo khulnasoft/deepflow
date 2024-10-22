@@ -27,12 +27,12 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/deepflowio/deepflow/server/libs/lru"
-	cfg "github.com/deepflowio/deepflow/server/querier/app/prometheus/config"
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	chCommon "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/common"
-	tagdescription "github.com/deepflowio/deepflow/server/querier/engine/clickhouse/tag"
+	"github.com/khulnasoft/deepflow/server/libs/lru"
+	cfg "github.com/khulnasoft/deepflow/server/querier/app/prometheus/config"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	chCommon "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/common"
+	tagdescription "github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/tag"
 )
 
 type promqlParse struct {

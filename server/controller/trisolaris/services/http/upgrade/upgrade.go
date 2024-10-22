@@ -21,14 +21,14 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	models "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/dbmgr"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/server/http"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/server/http/common"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	models "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/dbmgr"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/server/http"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/server/http/common"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var log = logger.MustGetLogger("trisolaris.upgrade")

@@ -16,7 +16,7 @@
 
 package tool
 
-import "github.com/deepflowio/deepflow/server/controller/common"
+import "github.com/khulnasoft/deepflow/server/controller/common"
 
 type EventDataSet struct {
 	hostIPToID   map[string]int

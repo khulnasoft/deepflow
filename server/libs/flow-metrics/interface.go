@@ -17,7 +17,7 @@
 package flow_metrics
 
 import (
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
 )
 
 type Tagger interface {

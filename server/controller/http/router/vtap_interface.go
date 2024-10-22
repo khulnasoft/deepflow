@@ -19,10 +19,10 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	httpcommon "github.com/deepflowio/deepflow/server/controller/http/common"
-	"github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service/vtap"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	httpcommon "github.com/khulnasoft/deepflow/server/controller/http/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service/vtap"
 )
 
 type VTapInterface struct {

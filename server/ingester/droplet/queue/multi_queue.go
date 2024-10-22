@@ -19,8 +19,8 @@ package queue
 import (
 	"errors"
 
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 )
 
 type MultiQueue struct {

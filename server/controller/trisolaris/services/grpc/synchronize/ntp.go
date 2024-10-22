@@ -24,7 +24,7 @@ import (
 	api "github.com/deepflowio/deepflow/message/trident"
 	context "golang.org/x/net/context"
 
-	"github.com/deepflowio/deepflow/server/controller/trisolaris"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris"
 )
 
 type NTPEvent struct{}

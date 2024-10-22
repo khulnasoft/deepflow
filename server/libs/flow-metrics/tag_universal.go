@@ -19,7 +19,7 @@ package flow_metrics
 import (
 	"net"
 
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
 )
 
 type UniversalTag struct {

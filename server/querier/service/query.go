@@ -17,9 +17,9 @@
 package service
 
 import (
-	"github.com/deepflowio/deepflow/server/querier/common"
-	"github.com/deepflowio/deepflow/server/querier/engine"
-	"github.com/deepflowio/deepflow/server/querier/engine/clickhouse"
+	"github.com/khulnasoft/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/engine"
+	"github.com/khulnasoft/deepflow/server/querier/engine/clickhouse"
 )
 
 func Execute(args *common.QuerierParams) (jsonData map[string]interface{}, debug map[string]interface{}, err error) {

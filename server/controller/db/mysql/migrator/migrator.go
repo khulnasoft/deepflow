@@ -19,11 +19,11 @@ package migrator
 import (
 	"github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlcommon "github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/edition"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/edition"
 )
 
 var log = logging.MustGetLogger("db.mysql.migrator")

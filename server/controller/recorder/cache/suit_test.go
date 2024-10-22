@@ -27,7 +27,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
 )
 
 const (

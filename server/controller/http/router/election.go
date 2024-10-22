@@ -18,8 +18,8 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 
-	. "github.com/deepflowio/deepflow/server/controller/http/router/common"
-	"github.com/deepflowio/deepflow/server/controller/http/service"
+	. "github.com/khulnasoft/deepflow/server/controller/http/router/common"
+	"github.com/khulnasoft/deepflow/server/controller/http/service"
 )
 
 type Election struct{}

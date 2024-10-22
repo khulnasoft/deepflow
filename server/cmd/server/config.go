@@ -26,8 +26,8 @@ import (
 	pyroscope "github.com/grafana/pyroscope-go"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/deepflowio/deepflow/server/ingester/ingesterctl"
-	"github.com/deepflowio/deepflow/server/libs/debug"
+	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl"
+	"github.com/khulnasoft/deepflow/server/libs/debug"
 )
 
 type Config struct {

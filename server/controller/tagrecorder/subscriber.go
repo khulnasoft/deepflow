@@ -21,13 +21,13 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/controller/recorder/constraint"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub"
-	"github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
-	msgconstraint "github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message/constraint"
-	"github.com/deepflowio/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
+	msgconstraint "github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message/constraint"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
 )
 
 var (

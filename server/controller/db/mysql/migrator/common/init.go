@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/common"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql/migrator/schema"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql/migrator/schema"
 )
 
 type EditionInitTablesFunc func(dc *DBConfig) error // TODO

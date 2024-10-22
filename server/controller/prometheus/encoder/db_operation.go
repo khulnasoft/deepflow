@@ -19,8 +19,8 @@ package encoder
 import (
 	"gorm.io/gorm/clause"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/constraint"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/constraint"
 )
 
 func addBatch[T constraint.OperateBatchModel](db *mysql.DB, toAdd []*T, resourceType string) error {

@@ -27,11 +27,11 @@ import (
 
 	logging "github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/server/ingester/common"
-	"github.com/deepflowio/deepflow/server/ingester/config"
-	"github.com/deepflowio/deepflow/server/ingester/datasource"
-	"github.com/deepflowio/deepflow/server/libs/ckdb"
-	flow_metrics "github.com/deepflowio/deepflow/server/libs/flow-metrics"
+	"github.com/khulnasoft/deepflow/server/ingester/common"
+	"github.com/khulnasoft/deepflow/server/ingester/config"
+	"github.com/khulnasoft/deepflow/server/ingester/datasource"
+	"github.com/khulnasoft/deepflow/server/libs/ckdb"
+	flow_metrics "github.com/khulnasoft/deepflow/server/libs/flow-metrics"
 )
 
 var log = logging.MustGetLogger("issu")

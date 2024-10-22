@@ -16,7 +16,7 @@
 
 package pubsub
 
-import "github.com/deepflowio/deepflow/server/controller/recorder/pubsub/message"
+import "github.com/khulnasoft/deepflow/server/controller/recorder/pubsub/message"
 
 type ResourceChangedSubscriber interface {
 	OnResourceChanged(md *message.Metadata, msg interface{})

@@ -19,8 +19,8 @@ package tagrecorder
 import (
 	"gorm.io/gorm/clause"
 
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
 )
 
 type operator[MT MySQLChModel, KT ChModelKey] interface {

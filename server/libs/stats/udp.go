@@ -21,7 +21,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/deepflowio/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
 )
 
 const (

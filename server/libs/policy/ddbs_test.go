@@ -21,7 +21,7 @@ import (
 
 	. "github.com/google/gopacket/layers"
 
-	. "github.com/deepflowio/deepflow/server/libs/datatype"
+	. "github.com/khulnasoft/deepflow/server/libs/datatype"
 )
 
 func TestDdbsSimple(t *testing.T) {

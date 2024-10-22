@@ -19,7 +19,7 @@ package packet_wrapper
 import (
 	"bytes"
 
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
 )
 
 func WrapResponse(res *model.PromQueryResponse) *model.PromQueryWrapper {

@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/deepflowio/deepflow/server/libs/eventapi"
-	"github.com/deepflowio/deepflow/server/libs/queue"
+	"github.com/khulnasoft/deepflow/server/libs/eventapi"
+	"github.com/khulnasoft/deepflow/server/libs/queue"
 	"github.com/google/uuid"
 )
 

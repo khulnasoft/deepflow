@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strings"
 
-	cloudmodel "github.com/deepflowio/deepflow/server/controller/cloud/model"
-	"github.com/deepflowio/deepflow/server/controller/common"
-	ctrlrcommon "github.com/deepflowio/deepflow/server/controller/common"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	rcommon "github.com/deepflowio/deepflow/server/controller/recorder/common"
+	cloudmodel "github.com/khulnasoft/deepflow/server/controller/cloud/model"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	ctrlrcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	rcommon "github.com/khulnasoft/deepflow/server/controller/recorder/common"
 )
 
 // 各类资源的映射关系，用于刷新资源时，转换所需数据

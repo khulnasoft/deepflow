@@ -27,9 +27,9 @@ import (
 
 	"github.com/deepflowio/deepflow/message/controller"
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/controller/grpc/statsd"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/cache"
-	"github.com/deepflowio/deepflow/server/controller/prometheus/common"
+	"github.com/khulnasoft/deepflow/server/controller/grpc/statsd"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/cache"
+	"github.com/khulnasoft/deepflow/server/controller/prometheus/common"
 )
 
 func newLabelResponse(version uint32) *trident.PrometheusLabelResponse {

@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/suite"
 	"gorm.io/gorm"
 
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	. "github.com/deepflowio/deepflow/server/controller/recorder/test"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	. "github.com/khulnasoft/deepflow/server/controller/recorder/test"
 )
 
 const (

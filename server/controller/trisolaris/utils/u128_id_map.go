@@ -21,10 +21,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/deepflowio/deepflow/server/libs/hmap"
-	"github.com/deepflowio/deepflow/server/libs/hmap/keyhash"
-	"github.com/deepflowio/deepflow/server/libs/stats"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/libs/hmap"
+	"github.com/khulnasoft/deepflow/server/libs/hmap/keyhash"
+	"github.com/khulnasoft/deepflow/server/libs/stats"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

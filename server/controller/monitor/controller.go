@@ -23,13 +23,13 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 
-	"github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/db/mysql"
-	mysqlmodel "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/model"
-	mconfig "github.com/deepflowio/deepflow/server/controller/monitor/config"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/refresh"
+	"github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
+	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/model"
+	mconfig "github.com/khulnasoft/deepflow/server/controller/monitor/config"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/refresh"
 )
 
 type dbAndIP struct {

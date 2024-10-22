@@ -24,13 +24,13 @@ import (
 
 	"github.com/google/gopacket/layers"
 
-	"github.com/deepflowio/deepflow/server/libs/datatype"
-	"github.com/deepflowio/deepflow/server/libs/hmap/idmap"
-	"github.com/deepflowio/deepflow/server/libs/hmap/lru"
-	"github.com/deepflowio/deepflow/server/libs/logger"
-	"github.com/deepflowio/deepflow/server/libs/policy"
-	api "github.com/deepflowio/deepflow/server/libs/reciter-api"
-	"github.com/deepflowio/deepflow/server/libs/utils"
+	"github.com/khulnasoft/deepflow/server/libs/datatype"
+	"github.com/khulnasoft/deepflow/server/libs/hmap/idmap"
+	"github.com/khulnasoft/deepflow/server/libs/hmap/lru"
+	"github.com/khulnasoft/deepflow/server/libs/logger"
+	"github.com/khulnasoft/deepflow/server/libs/policy"
+	api "github.com/khulnasoft/deepflow/server/libs/reciter-api"
+	"github.com/khulnasoft/deepflow/server/libs/utils"
 )
 
 const (

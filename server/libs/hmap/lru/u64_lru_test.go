@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/deepflowio/deepflow/server/libs/hmap"
-	oldlru "github.com/deepflowio/deepflow/server/libs/lru"
+	"github.com/khulnasoft/deepflow/server/libs/hmap"
+	oldlru "github.com/khulnasoft/deepflow/server/libs/lru"
 )
 
 func TestU64LRU(t *testing.T) {

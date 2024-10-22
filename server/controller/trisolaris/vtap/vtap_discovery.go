@@ -24,11 +24,11 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 
-	. "github.com/deepflowio/deepflow/server/controller/common"
-	models "github.com/deepflowio/deepflow/server/controller/db/mysql/model"
-	"github.com/deepflowio/deepflow/server/controller/recorder/db/idmng"
-	"github.com/deepflowio/deepflow/server/controller/trisolaris/dbmgr"
-	. "github.com/deepflowio/deepflow/server/controller/trisolaris/utils"
+	. "github.com/khulnasoft/deepflow/server/controller/common"
+	models "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
+	"github.com/khulnasoft/deepflow/server/controller/recorder/db/idmng"
+	"github.com/khulnasoft/deepflow/server/controller/trisolaris/dbmgr"
+	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"
 )
 
 type VTapRegister struct {

@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/deepflowio/deepflow/server/libs/codec"
+	"github.com/khulnasoft/deepflow/server/libs/codec"
 )
 
 func TestTagEncodeAndDecode(t *testing.T) {

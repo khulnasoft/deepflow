@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/deepflowio/deepflow/server/querier/common"
+	"github.com/khulnasoft/deepflow/server/querier/common"
 )
 
 var TagResoureMap = GenerateTagResoureMap()

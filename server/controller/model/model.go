@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/deepflowio/deepflow/message/trident"
-	"github.com/deepflowio/deepflow/server/agent_config"
+	"github.com/khulnasoft/deepflow/server/agent_config"
 )
 
 type ControllerUpdate struct {

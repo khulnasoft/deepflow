@@ -23,10 +23,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/deepflowio/deepflow/server/libs/lru"
-	"github.com/deepflowio/deepflow/server/querier/app/prometheus/model"
-	"github.com/deepflowio/deepflow/server/querier/config"
-	"github.com/deepflowio/deepflow/server/querier/statsd"
+	"github.com/khulnasoft/deepflow/server/libs/lru"
+	"github.com/khulnasoft/deepflow/server/querier/app/prometheus/model"
+	"github.com/khulnasoft/deepflow/server/querier/config"
+	"github.com/khulnasoft/deepflow/server/querier/statsd"
 	"github.com/prometheus/prometheus/prompb"
 )
 

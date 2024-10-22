@@ -17,9 +17,9 @@
 package appender
 
 import (
-	"github.com/deepflowio/deepflow/server/controller/config"
-	"github.com/deepflowio/deepflow/server/controller/http/common/registrant"
-	"github.com/deepflowio/deepflow/server/controller/http/router/resource"
+	"github.com/khulnasoft/deepflow/server/controller/config"
+	"github.com/khulnasoft/deepflow/server/controller/http/common/registrant"
+	"github.com/khulnasoft/deepflow/server/controller/http/router/resource"
 )
 
 func GetRegistrants(cfg *config.ControllerConfig) []registrant.Registrant {
