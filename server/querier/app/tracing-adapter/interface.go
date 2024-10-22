@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,12 +20,12 @@ import (
 	"net/http"
 	"sync"
 
+	"github.com/gin-gonic/gin"
 	adapter_config "github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/config"
 	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/model"
 	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/service"
 	"github.com/khulnasoft/deepflow/server/querier/common"
 	"github.com/khulnasoft/deepflow/server/querier/config"
-	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 )
 

@@ -272,7 +272,7 @@ Howto write multiline string in yaml: [link](https://yaml-multiline.info/).
 # Howto Generate README.md
 
 ```bash
-git clone https://github.com/deepflowio/deepflow/
+git clone https://github.com/khulnasoft/deepflow/
 cd deepflow/server/agent_config/
 
 python3 gendoc.py

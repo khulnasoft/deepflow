@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -106,7 +106,7 @@ func TestWriteU64(t *testing.T) {
 
 func TestWriteString(t *testing.T) {
 	b := &IntBuffer{}
-	exp := "Hello, world! Hello, Yunshan Networks!"
+	exp := "Hello, world! Hello, KhulnaSoft, Ltd!"
 	b.WriteString(exp)
 	if b.String() != exp {
 		t.Errorf("Expected %v found %v", exp, b.String())
@@ -115,7 +115,7 @@ func TestWriteString(t *testing.T) {
 
 func TestReset(t *testing.T) {
 	b := &IntBuffer{}
-	exp := "Hello, world! Hello, Yunshan Networks!"
+	exp := "Hello, world! Hello, KhulnaSoft, Ltd!"
 	b.WriteString(exp)
 	if b.String() != exp {
 		t.Errorf("Expected %v found %v", exp, b.String())
@@ -126,7 +126,7 @@ func TestReset(t *testing.T) {
 		t.Errorf("Expected %v found %v", "", b.String())
 	}
 
-	exp = "Bye, world! Bye, Yunshan Networks!"
+	exp = "Bye, world! Bye, KhulnaSoft, Ltd!"
 	b.WriteString(exp)
 	if b.String() != exp {
 		t.Errorf("Expected %v found %v", exp, b.String())

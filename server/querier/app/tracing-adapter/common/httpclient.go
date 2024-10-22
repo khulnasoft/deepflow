@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,8 +27,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/config"
 	"github.com/goccy/go-json"
+	"github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/config"
 	"github.com/op/go-logging"
 )
 

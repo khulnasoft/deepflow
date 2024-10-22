@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,11 +30,11 @@ import (
 	v1 "github.com/grafana/tempo/pkg/tempopb/common/v1"
 	resourceProto "github.com/grafana/tempo/pkg/tempopb/resource/v1"
 	traceProto "github.com/grafana/tempo/pkg/tempopb/trace/v1" */
-	"github.com/deepflowio/tempopb"
-	v1 "github.com/deepflowio/tempopb/common/v1"
-	resourceProto "github.com/deepflowio/tempopb/resource/v1"
-	traceProto "github.com/deepflowio/tempopb/trace/v1"
 	"github.com/google/uuid"
+	"github.com/khulnasoft/tempopb"
+	v1 "github.com/khulnasoft/tempopb/common/v1"
+	resourceProto "github.com/khulnasoft/tempopb/resource/v1"
+	traceProto "github.com/khulnasoft/tempopb/trace/v1"
 
 	//"github.com/k0kubun/pp"
 	"io/ioutil"

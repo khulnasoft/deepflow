@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 package metadata
 
-import "github.com/deepflowio/deepflow/message/trident"
+import "github.com/khulnasoft/deepflow/message/trident"
 
 // GProcessInfoProto is only used to send to the ingester module.
 type GProcessInfoProto struct {

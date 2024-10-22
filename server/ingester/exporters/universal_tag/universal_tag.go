@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/deepflowio/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/message/trident"
 	"github.com/khulnasoft/deepflow/server/ingester/config"
 	exportercfg "github.com/khulnasoft/deepflow/server/ingester/exporters/config"
 	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl"

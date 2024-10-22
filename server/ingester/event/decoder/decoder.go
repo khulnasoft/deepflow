@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,8 +24,8 @@ import (
 
 	logging "github.com/op/go-logging"
 
-	"github.com/deepflowio/deepflow/message/alert_event"
-	"github.com/deepflowio/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/message/alert_event"
+	"github.com/khulnasoft/deepflow/message/trident"
 	ingestercommon "github.com/khulnasoft/deepflow/server/ingester/common"
 	"github.com/khulnasoft/deepflow/server/ingester/event/common"
 	"github.com/khulnasoft/deepflow/server/ingester/event/config"

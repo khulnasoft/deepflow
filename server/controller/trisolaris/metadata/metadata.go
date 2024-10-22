@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import (
 	mapset "github.com/deckarep/golang-set"
 	"gorm.io/gorm"
 
-	"github.com/deepflowio/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/message/trident"
 	"github.com/khulnasoft/deepflow/server/controller/trisolaris/config"
 	"github.com/khulnasoft/deepflow/server/controller/trisolaris/pushmanager"
 	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/utils"

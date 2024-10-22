@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -131,7 +131,7 @@ func TestWriteIPv6(t *testing.T) {
 func TestWriteString255(t *testing.T) {
 	e := &SimpleEncoder{}
 	d := &SimpleDecoder{}
-	exp := "Hello, world! Hello, Yunshan Networks!"
+	exp := "Hello, world! Hello, KhulnaSoft, Ltd!"
 	e.WriteString255(exp)
 	d.Init(e.Bytes())
 	s := d.ReadString255()
@@ -142,7 +142,7 @@ func TestWriteString255(t *testing.T) {
 
 func TestWriteRawString(t *testing.T) {
 	e := &SimpleEncoder{}
-	exp := "Hello, world! Hello, Yunshan Networks!"
+	exp := "Hello, world! Hello, KhulnaSoft, Ltd!"
 	e.WriteRawString(exp)
 	if e.String() != exp {
 		t.Errorf("Expected %v found %v", exp, e.String())
@@ -205,7 +205,7 @@ func TestRefOfString(t *testing.T) {
 
 func TestReset(t *testing.T) {
 	e := &SimpleEncoder{}
-	exp := "Hello, world! Hello, Yunshan Networks!"
+	exp := "Hello, world! Hello, KhulnaSoft, Ltd!"
 	e.WriteRawString(exp)
 	if e.String() != exp {
 		t.Errorf("Expected %v found %v", exp, e.String())
@@ -216,7 +216,7 @@ func TestReset(t *testing.T) {
 		t.Errorf("Expected %v found %v", "", e.String())
 	}
 
-	exp = "Bye, world! Bye, Yunshan Networks!"
+	exp = "Bye, world! Bye, KhulnaSoft, Ltd!"
 	e.WriteRawString(exp)
 	if e.String() != exp {
 		t.Errorf("Expected %v found %v", exp, e.String())

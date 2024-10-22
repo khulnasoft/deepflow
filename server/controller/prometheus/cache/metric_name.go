@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ package cache
 import (
 	"sync"
 
-	"github.com/deepflowio/deepflow/message/controller"
+	"github.com/khulnasoft/deepflow/message/controller"
 	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 	"github.com/khulnasoft/deepflow/server/controller/prometheus/common"
 )

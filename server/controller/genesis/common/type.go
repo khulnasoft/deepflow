@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,9 +19,9 @@ package common
 import (
 	"time"
 
-	"github.com/deepflowio/deepflow/message/agent"
-	"github.com/deepflowio/deepflow/message/common"
-	"github.com/deepflowio/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/message/agent"
+	"github.com/khulnasoft/deepflow/message/common"
+	"github.com/khulnasoft/deepflow/message/trident"
 	"github.com/khulnasoft/deepflow/server/controller/model"
 )
 

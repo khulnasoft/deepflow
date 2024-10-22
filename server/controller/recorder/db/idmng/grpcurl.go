@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"
 
-	api "github.com/deepflowio/deepflow/message/controller"
+	api "github.com/khulnasoft/deepflow/message/controller"
 	"github.com/khulnasoft/deepflow/server/controller/common"
 	"github.com/khulnasoft/deepflow/server/libs/logger"
 )

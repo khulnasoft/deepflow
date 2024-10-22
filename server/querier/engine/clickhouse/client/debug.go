@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,8 +19,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/khulnasoft/deepflow/server/querier/config"
 	"github.com/google/uuid"
+	"github.com/khulnasoft/deepflow/server/querier/config"
 )
 
 type Debug struct {

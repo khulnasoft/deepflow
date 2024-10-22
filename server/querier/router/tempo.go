@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,12 +23,12 @@ import (
 
 	//logging "github.com/op/go-logging"
 	//"fmt"
-	"github.com/khulnasoft/deepflow/server/querier/common"
 	"github.com/golang/protobuf/jsonpb"
+	"github.com/khulnasoft/deepflow/server/querier/common"
 	//"github.com/golang/protobuf/proto"
 	//"github.com/grafana/tempo/pkg/tempopb"
-	"github.com/khulnasoft/deepflow/server/querier/tempo"
 	"github.com/golang/protobuf/proto"
+	"github.com/khulnasoft/deepflow/server/querier/tempo"
 	//"github.com/k0kubun/pp"
 )
 

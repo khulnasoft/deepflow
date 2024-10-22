@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,9 +26,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/deepflowio/deepflow/message/trident"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
+	"github.com/khulnasoft/deepflow/message/trident"
 	"github.com/khulnasoft/deepflow/server/controller/common"
 	"github.com/khulnasoft/deepflow/server/controller/config"
 	"github.com/khulnasoft/deepflow/server/controller/db/mysql"

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 
-	"github.com/deepflowio/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/message/trident"
 	. "github.com/khulnasoft/deepflow/server/controller/common"
 	models "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 	"github.com/khulnasoft/deepflow/server/controller/http/common"

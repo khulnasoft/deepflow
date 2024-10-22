@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	pb "github.com/deepflowio/deepflow/message/k8s_event"
+	pb "github.com/khulnasoft/deepflow/message/k8s_event"
 	ingestercommon "github.com/khulnasoft/deepflow/server/ingester/common"
 	"github.com/khulnasoft/deepflow/server/ingester/event/dbwriter"
 	"github.com/khulnasoft/deepflow/server/libs/codec"

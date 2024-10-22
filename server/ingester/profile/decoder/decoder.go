@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,6 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/google/uuid"
 	"github.com/khulnasoft/deepflow/server/ingester/common"
 	"github.com/khulnasoft/deepflow/server/ingester/flow_tag"
 	profile_common "github.com/khulnasoft/deepflow/server/ingester/profile/common"
@@ -37,7 +38,6 @@ import (
 	"github.com/khulnasoft/deepflow/server/libs/receiver"
 	"github.com/khulnasoft/deepflow/server/libs/stats"
 	"github.com/khulnasoft/deepflow/server/libs/utils"
-	"github.com/google/uuid"
 	logging "github.com/op/go-logging"
 	"github.com/pyroscope-io/pyroscope/pkg/convert/jfr"
 	"github.com/pyroscope-io/pyroscope/pkg/convert/pprof"

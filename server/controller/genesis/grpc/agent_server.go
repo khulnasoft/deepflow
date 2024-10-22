@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/deepflowio/deepflow/message/agent"
+	"github.com/khulnasoft/deepflow/message/agent"
 	mysqlcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
 	"github.com/khulnasoft/deepflow/server/controller/genesis/common"
 	"github.com/khulnasoft/deepflow/server/libs/logger"

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,10 +28,10 @@ import (
 	clickhouse "github.com/ClickHouse/clickhouse-go/v2"
 	//"github.com/k0kubun/pp"
 
+	"github.com/google/uuid"
 	"github.com/khulnasoft/deepflow/server/querier/common"
 	"github.com/khulnasoft/deepflow/server/querier/config"
 	"github.com/khulnasoft/deepflow/server/querier/statsd"
-	"github.com/google/uuid"
 	logging "github.com/op/go-logging"
 )
 

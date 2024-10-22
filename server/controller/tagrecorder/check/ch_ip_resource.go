@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Yunshan Networks
+ * Copyright (c) 2023 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
+	json "github.com/goccy/go-json"
 	"github.com/khulnasoft/deepflow/server/controller/db/mysql"
 	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"
 	"github.com/khulnasoft/deepflow/server/controller/db/redis"
-	json "github.com/goccy/go-json"
 )
 
 type ChIPResource struct {

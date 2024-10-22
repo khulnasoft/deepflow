@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@ import (
 	"github.com/mohae/deepcopy"
 	"gopkg.in/yaml.v2"
 
-	"github.com/deepflowio/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/message/trident"
 	"github.com/khulnasoft/deepflow/server/agent_config"
 	. "github.com/khulnasoft/deepflow/server/controller/common"
 	mysqlmodel "github.com/khulnasoft/deepflow/server/controller/db/mysql/model"

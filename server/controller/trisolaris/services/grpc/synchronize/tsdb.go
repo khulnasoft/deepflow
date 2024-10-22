@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	context "golang.org/x/net/context"
 
-	api "github.com/deepflowio/deepflow/message/trident"
+	api "github.com/khulnasoft/deepflow/message/trident"
 	. "github.com/khulnasoft/deepflow/server/controller/common"
 	"github.com/khulnasoft/deepflow/server/controller/trisolaris"
 	. "github.com/khulnasoft/deepflow/server/controller/trisolaris/common"

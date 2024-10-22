@@ -1,4 +1,4 @@
-MESSAGE = github.com/deepflowio/deepflow/message
+MESSAGE = github.com/khulnasoft/deepflow/message
 
 vendor:
 	go mod tidy && go mod download && go mod vendor

@@ -42,8 +42,6 @@ require (
 	github.com/cornelk/hashmap v1.0.8
 	github.com/deckarep/golang-set v1.8.0
 	github.com/deckarep/golang-set/v2 v2.1.0
-	github.com/deepflowio/deepflow/message v0.0.0-20240924113131-ec9660ac2e46
-	github.com/deepflowio/tempopb v0.0.0-20230215110519-15853baf3a79
 	github.com/docker/go-units v0.4.0
 	github.com/gin-gonic/gin v1.9.1
 	github.com/gogo/protobuf v1.3.2
@@ -99,6 +97,7 @@ require (
 	github.com/go-redis/redis/v9 v9.0.0-rc.2
 	github.com/golang/mock v1.6.0
 	github.com/grafana/pyroscope-go v1.0.4
+	github.com/khulnasoft/deepflow/message v0.0.0-20241022101633-9c21adb092c7
 	github.com/khulnasoft/deepflow/server/controller/cloud/kubernetes_gather/expand v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/controller/cloud/platform v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/controller/cloud/tencent/expand v0.0.0-00010101000000-000000000000
@@ -115,6 +114,7 @@ require (
 	github.com/khulnasoft/deepflow/server/querier/app/prometheus/service/packet_wrapper v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/querier/app/tracing-adapter/service/packet_service v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/deepflow/server/querier/engine/clickhouse/packet_batch v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/tempopb v0.0.0-20241022104533-7b28ed5eb65e
 	github.com/klauspost/compress v1.17.7
 	github.com/mitchellh/mapstructure v1.4.3
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826

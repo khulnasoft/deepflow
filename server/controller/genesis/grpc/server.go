@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,10 +25,10 @@ import (
 
 	"google.golang.org/grpc/peer"
 
-	"github.com/deepflowio/deepflow/message/agent"
-	tridentcommon "github.com/deepflowio/deepflow/message/common"
-	"github.com/deepflowio/deepflow/message/controller"
-	"github.com/deepflowio/deepflow/message/trident"
+	"github.com/khulnasoft/deepflow/message/agent"
+	tridentcommon "github.com/khulnasoft/deepflow/message/common"
+	"github.com/khulnasoft/deepflow/message/controller"
+	"github.com/khulnasoft/deepflow/message/trident"
 	controllercommon "github.com/khulnasoft/deepflow/server/controller/common"
 	mysqlcommon "github.com/khulnasoft/deepflow/server/controller/db/mysql/common"
 	"github.com/khulnasoft/deepflow/server/controller/genesis/common"

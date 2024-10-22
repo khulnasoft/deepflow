@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/google/uuid"
 	"github.com/khulnasoft/deepflow/server/libs/eventapi"
 	"github.com/khulnasoft/deepflow/server/libs/queue"
-	"github.com/google/uuid"
 )
 
 func RandID() int {
