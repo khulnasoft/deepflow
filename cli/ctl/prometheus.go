@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/deepflowio/deepflow/cli/ctl/common"
-	"github.com/deepflowio/deepflow/message/controller"
+	"github.com/khulnasoft/deepflow/cli/ctl/common"
+	"github.com/khulnasoft/deepflow/message/controller"
 	"github.com/spf13/cobra"
 )
 

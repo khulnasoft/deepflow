@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,9 +26,9 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"github.com/deepflowio/deepflow/cli/ctl/common"
-	"github.com/deepflowio/deepflow/cli/ctl/common/table"
-	"github.com/deepflowio/deepflow/cli/ctl/example"
+	"github.com/khulnasoft/deepflow/cli/ctl/common"
+	"github.com/khulnasoft/deepflow/cli/ctl/common/table"
+	"github.com/khulnasoft/deepflow/cli/ctl/example"
 )
 
 func RegisterDomainCommand() *cobra.Command {

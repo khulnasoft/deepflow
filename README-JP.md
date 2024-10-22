@@ -6,9 +6,9 @@
 </p>
 <p align="center">
     <a href="https://zenodo.org/badge/latestdoi/448599559"><img src="https://zenodo.org/badge/448599559.svg" alt="DOI"></a>
-    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/deepflowio/deepflow"> </a>
-    <img alt="docker pulls" src="https://img.shields.io/docker/pulls/deepflowce/deepflow-agent?color=green?label=docker pulls"> </a>
-    <img alt="License" src="https://img.shields.io/github/license/deepflowio/deepflow?color=purple"> </a>
+    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/khulnasoft/deepflow"> </a>
+    <img alt="docker pulls" src="https://img.shields.io/docker/pulls/khulnasoft/deepflow-agent?color=green?label=docker pulls"> </a>
+    <img alt="License" src="https://img.shields.io/github/license/khulnasoft/deepflow?color=purple"> </a>
 </p>
 
 -------------
@@ -67,7 +67,7 @@ DeepFlow Community版は、AgentとServerの2つのプロセスで構成され�
 # お問い合わせ
 
 - Discord：[こちら](https://discord.gg/QJ7Dyj4wWM)をクリックして、Discordチャンネルに参加してください。
-- Twitter：[DeepFlow](https://twitter.com/deepflowio)
+- Twitter：[DeepFlow](https://twitter.com/khulnasoft)
 - WeChatグループ：
 <img src=./docs/wechat-group-keeper.png width=30% />
 

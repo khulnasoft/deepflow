@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/deepflowio/deepflow/cli/ctl"
+	"github.com/khulnasoft/deepflow/cli/ctl"
 )
 
 var RevCount, Revision, CommitDate, goVersion, Branch, CompileTime string

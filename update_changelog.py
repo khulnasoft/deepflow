@@ -10,7 +10,7 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Constants
-REPO_OWNER = "deepflowio"
+REPO_OWNER = "khulnasoft"
 REPO_NAME = "deepflow"
 PR_TYPE_MAPPING = {
     "fix": "Bug Fix",

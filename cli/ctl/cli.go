@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yunshan Networks
+ * Copyright (c) 2024 KhulnaSoft, Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/deepflowio/deepflow/cli/ctl/common"
-	ctrlcommon "github.com/deepflowio/deepflow/server/controller/common"
-	"github.com/deepflowio/deepflow/server/ingester/ingesterctl/cmd"
+	"github.com/khulnasoft/deepflow/cli/ctl/common"
+	ctrlcommon "github.com/khulnasoft/deepflow/server/controller/common"
+	"github.com/khulnasoft/deepflow/server/ingester/ingesterctl/cmd"
 )
 
 type Ctl struct{}
