@@ -1,4 +1,4 @@
-module github.com/deepflowio/deepflow/message
+module github.com/khulnasoft/deepflow/message
 
 go 1.18
 
